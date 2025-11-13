@@ -1,0 +1,89 @@
+simulation:
+  start: "2025-11-3"
+  end: "2025-11-10"
+  cash: 100
+  commission_bps: 0.5
+  slippage_bps: 0.2
+
+data:
+  feed: "binance"
+  params:
+    symbol: "DOGEUSDT"
+    mode: "rest" # "websocket" or "rest"
+    interval: "1m"
+    latest: false
+    proxy: "http://127.0.0.1:7897"
+
+strategy:
+  name: "deep_learning"
+  params:
+    symbol: "DOGEUSDT"
+    model_path: "models/dl_model_transformer_gru.ts"
+    metadata_path: "models/dl_model_transformer.meta.json"
+    seq_len: 60
+    thresholds:
+      flat: 0.45
+    min_confidence: 0.5
+    min_confidence_low_vol: 0.45
+    vol_adapt_window: 180
+    vol_adapt_factor: 0.6
+    max_position: 0.6
+    volatility_window: 60
+    fallback_weight: 0.0
+    allow_short: false
+    confirm_bars: 3
+    fallback_short_window: 5
+    fallback_long_window: 20
+    use_indicator_filter: true
+    ema_confirm_fast: 9
+    ema_confirm_slow: 21
+    rsi_confirm: 55
+    regime_required: 1
+    cooldown_bars: 10
+    health_window: 50
+    min_health: 0.6
+    require_meta_label: true
+    risk_budget: 0.1
+    max_trades_per_window: 5
+    trade_window_minutes: 120
+    loss_streak_limit: 4
+    loss_cooldown_bars: 25
+    scenario_overrides:
+      flat:
+        max_position: 0.35
+        min_confidence: 0.6
+        min_confidence_low_vol: 0.55
+        cooldown_bars: 18
+        mean_reversion:
+          enabled: true
+          lower_z: -1.1
+          upper_z: 1.1
+          target_weight: 0.3
+        grid:
+          enabled: true
+          entry_pct: 0.0016
+          exit_pct: 0.0024
+          target_weight: 0.2
+          center_ema: 0.06
+        loss_streak_limit: 3
+        loss_cooldown_bars: 40
+      trend_up:
+        max_position: 0.8
+        risk_budget: 0.18
+        min_confidence: 0.46
+        allow_short: false
+        loss_streak_limit: 2
+        loss_cooldown_bars: 60
+      trend_down:
+        max_position: 0.4
+        min_confidence: 0.55
+        allow_short: false
+
+report:
+  output: "reports/binance_doge_dl.json"
+  chart: "reports/binance_doge_dl.png"
+
+visualization:
+  live: true
+  symbol: "DOGEUSDT"
+  window_minutes: 1000

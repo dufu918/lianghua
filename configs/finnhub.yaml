@@ -1,0 +1,31 @@
+simulation:
+  start: "2024-01-02"
+  end: "2024-01-19"
+  cash: 1000000
+  commission_bps: 1.5
+  slippage_bps: 1.0
+
+data:
+  feed: "finnhub"
+  params:
+    symbol: "SZ:000001"
+    resolution: "D"
+    start: "2024-01-02"
+    end: "2024-01-19"
+    # 可以直接写 api_key，也可以通过环境变量 FINNHUB_API_KEY 提供
+    api_key: "d3ifb79r01qn6oiodll0d3ifb79r01qn6oiodllg"
+
+strategy:
+  name: "moving_average"
+  params:
+    short_window: 3
+    long_window: 7
+    symbol: "SZ:000001"
+
+report:
+  output: "reports/finnhub_run.json"
+  chart: "reports/finnhub_run.png"
+
+visualization:
+  live: true
+  symbol: "SZ:000001"

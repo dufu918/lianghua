@@ -1,0 +1,4427 @@
+Training log: logs\train_dl_model_transformer_20251113_091309.log
+[Scenario flat] samples=228459 | positive=59916 | negative=60457
+=== Scenario: flat | Model: gru ===
+              precision    recall  f1-score   support
+
+           0       0.73      0.65      0.69     14412
+           1       0.74      0.77      0.75     24579
+           2       0.67      0.69      0.68     14256
+
+    accuracy                           0.72     53247
+   macro avg       0.71      0.70      0.71     53247
+weighted avg       0.72      0.72      0.72     53247
+
+Epoch 1: train_loss=0.2950 val_loss=0.2768
+              precision    recall  f1-score   support
+
+           0       0.73      0.68      0.71     14412
+           1       0.78      0.67      0.72     24579
+           2       0.60      0.78      0.68     14256
+
+    accuracy                           0.70     53247
+   macro avg       0.70      0.71      0.70     53247
+weighted avg       0.72      0.70      0.70     53247
+
+Epoch 2: train_loss=0.2605 val_loss=0.2811
+              precision    recall  f1-score   support
+
+           0       0.76      0.68      0.71     14412
+           1       0.76      0.74      0.75     24579
+           2       0.65      0.75      0.70     14256
+
+    accuracy                           0.73     53247
+   macro avg       0.72      0.72      0.72     53247
+weighted avg       0.73      0.73      0.73     53247
+
+Epoch 3: train_loss=0.2462 val_loss=0.2631
+              precision    recall  f1-score   support
+
+           0       0.76      0.67      0.71     14412
+           1       0.76      0.72      0.74     24579
+           2       0.63      0.75      0.68     14256
+
+    accuracy                           0.72     53247
+   macro avg       0.72      0.72      0.71     53247
+weighted avg       0.72      0.72      0.72     53247
+
+Epoch 4: train_loss=0.2402 val_loss=0.2762
+              precision    recall  f1-score   support
+
+           0       0.72      0.69      0.70     14412
+           1       0.75      0.75      0.75     24579
+           2       0.70      0.72      0.71     14256
+
+    accuracy                           0.73     53247
+   macro avg       0.72      0.72      0.72     53247
+weighted avg       0.73      0.73      0.73     53247
+
+Epoch 5: train_loss=0.2310 val_loss=0.2683
+              precision    recall  f1-score   support
+
+           0       0.71      0.71      0.71     14412
+           1       0.76      0.73      0.74     24579
+           2       0.68      0.73      0.70     14256
+
+    accuracy                           0.72     53247
+   macro avg       0.72      0.72      0.72     53247
+weighted avg       0.72      0.72      0.72     53247
+
+Epoch 6: train_loss=0.2224 val_loss=0.2670
+              precision    recall  f1-score   support
+
+           0       0.70      0.70      0.70     14412
+           1       0.76      0.72      0.74     24579
+           2       0.67      0.73      0.70     14256
+
+    accuracy                           0.72     53247
+   macro avg       0.71      0.72      0.71     53247
+weighted avg       0.72      0.72      0.72     53247
+
+Epoch 7: train_loss=0.2098 val_loss=0.2768
+              precision    recall  f1-score   support
+
+           0       0.70      0.71      0.70     14412
+           1       0.78      0.67      0.72     24579
+           2       0.62      0.77      0.69     14256
+
+    accuracy                           0.71     53247
+   macro avg       0.70      0.71      0.70     53247
+weighted avg       0.71      0.71      0.71     53247
+
+Epoch 8: train_loss=0.1999 val_loss=0.2802
+              precision    recall  f1-score   support
+
+           0       0.73      0.66      0.69     14412
+           1       0.75      0.75      0.75     24579
+           2       0.65      0.72      0.68     14256
+
+    accuracy                           0.72     53247
+   macro avg       0.71      0.71      0.71     53247
+weighted avg       0.72      0.72      0.72     53247
+
+Epoch 9: train_loss=0.1933 val_loss=0.2991
+Early stopping.
+[Scenario flat][Walk 1]
+              precision    recall  f1-score   support
+
+           0       0.73      0.66      0.69     14412
+           1       0.75      0.75      0.75     24579
+           2       0.65      0.72      0.68     14256
+
+    accuracy                           0.72     53247
+   macro avg       0.71      0.71      0.71     53247
+weighted avg       0.72      0.72      0.72     53247
+
+              precision    recall  f1-score   support
+
+           0       0.68      0.72      0.70     12892
+           1       0.81      0.72      0.76     27045
+           2       0.65      0.75      0.70     13310
+
+    accuracy                           0.73     53247
+   macro avg       0.71      0.73      0.72     53247
+weighted avg       0.74      0.73      0.73     53247
+
+Epoch 1: train_loss=0.2867 val_loss=0.2630
+              precision    recall  f1-score   support
+
+           0       0.71      0.71      0.71     12892
+           1       0.80      0.73      0.76     27045
+           2       0.64      0.75      0.69     13310
+
+    accuracy                           0.73     53247
+   macro avg       0.72      0.73      0.72     53247
+weighted avg       0.74      0.73      0.73     53247
+
+Epoch 2: train_loss=0.2556 val_loss=0.2542
+              precision    recall  f1-score   support
+
+           0       0.73      0.70      0.71     12892
+           1       0.79      0.78      0.78     27045
+           2       0.68      0.73      0.71     13310
+
+    accuracy                           0.75     53247
+   macro avg       0.73      0.74      0.74     53247
+weighted avg       0.75      0.75      0.75     53247
+
+Epoch 3: train_loss=0.2446 val_loss=0.2455
+              precision    recall  f1-score   support
+
+           0       0.66      0.75      0.70     12892
+           1       0.81      0.70      0.75     27045
+           2       0.66      0.75      0.70     13310
+
+    accuracy                           0.73     53247
+   macro avg       0.71      0.73      0.72     53247
+weighted avg       0.74      0.73      0.73     53247
+
+Epoch 4: train_loss=0.2356 val_loss=0.2507
+              precision    recall  f1-score   support
+
+           0       0.68      0.74      0.70     12892
+           1       0.82      0.70      0.75     27045
+           2       0.63      0.76      0.69     13310
+
+    accuracy                           0.72     53247
+   macro avg       0.71      0.73      0.72     53247
+weighted avg       0.74      0.72      0.73     53247
+
+Epoch 5: train_loss=0.2261 val_loss=0.2555
+              precision    recall  f1-score   support
+
+           0       0.69      0.71      0.70     12892
+           1       0.80      0.74      0.77     27045
+           2       0.66      0.74      0.70     13310
+
+    accuracy                           0.74     53247
+   macro avg       0.72      0.73      0.72     53247
+weighted avg       0.74      0.74      0.74     53247
+
+Epoch 6: train_loss=0.2146 val_loss=0.2547
+              precision    recall  f1-score   support
+
+           0       0.68      0.72      0.70     12892
+           1       0.80      0.76      0.78     27045
+           2       0.68      0.72      0.70     13310
+
+    accuracy                           0.74     53247
+   macro avg       0.72      0.73      0.72     53247
+weighted avg       0.74      0.74      0.74     53247
+
+Epoch 7: train_loss=0.2030 val_loss=0.2682
+              precision    recall  f1-score   support
+
+           0       0.65      0.74      0.69     12892
+           1       0.80      0.73      0.76     27045
+           2       0.67      0.72      0.69     13310
+
+    accuracy                           0.73     53247
+   macro avg       0.71      0.73      0.72     53247
+weighted avg       0.73      0.73      0.73     53247
+
+Epoch 8: train_loss=0.1926 val_loss=0.2677
+              precision    recall  f1-score   support
+
+           0       0.65      0.72      0.68     12892
+           1       0.80      0.68      0.74     27045
+           2       0.62      0.75      0.68     13310
+
+    accuracy                           0.71     53247
+   macro avg       0.69      0.72      0.70     53247
+weighted avg       0.72      0.71      0.71     53247
+
+Epoch 9: train_loss=0.1795 val_loss=0.2849
+Early stopping.
+[Scenario flat][Walk 2]
+              precision    recall  f1-score   support
+
+           0       0.65      0.72      0.68     12892
+           1       0.80      0.68      0.74     27045
+           2       0.62      0.75      0.68     13310
+
+    accuracy                           0.71     53247
+   macro avg       0.69      0.72      0.70     53247
+weighted avg       0.72      0.71      0.71     53247
+
+              precision    recall  f1-score   support
+
+           0       0.65      0.74      0.69     11347
+           1       0.85      0.77      0.81     30364
+           2       0.64      0.72      0.67     11536
+
+    accuracy                           0.75     53247
+   macro avg       0.71      0.74      0.72     53247
+weighted avg       0.76      0.75      0.75     53247
+
+Epoch 1: train_loss=0.2817 val_loss=0.2399
+              precision    recall  f1-score   support
+
+           0       0.59      0.78      0.67     11347
+           1       0.86      0.74      0.79     30364
+           2       0.67      0.72      0.70     11536
+
+    accuracy                           0.74     53247
+   macro avg       0.71      0.74      0.72     53247
+weighted avg       0.76      0.74      0.75     53247
+
+Epoch 2: train_loss=0.2549 val_loss=0.2426
+              precision    recall  f1-score   support
+
+           0       0.66      0.74      0.70     11347
+           1       0.86      0.80      0.83     30364
+           2       0.70      0.73      0.71     11536
+
+    accuracy                           0.77     53247
+   macro avg       0.74      0.76      0.75     53247
+weighted avg       0.78      0.77      0.77     53247
+
+Epoch 3: train_loss=0.2430 val_loss=0.2270
+              precision    recall  f1-score   support
+
+           0       0.72      0.70      0.71     11347
+           1       0.84      0.84      0.84     30364
+           2       0.71      0.71      0.71     11536
+
+    accuracy                           0.79     53247
+   macro avg       0.76      0.75      0.75     53247
+weighted avg       0.78      0.79      0.78     53247
+
+Epoch 4: train_loss=0.2319 val_loss=0.2200
+              precision    recall  f1-score   support
+
+           0       0.64      0.74      0.69     11347
+           1       0.88      0.70      0.78     30364
+           2       0.58      0.79      0.67     11536
+
+    accuracy                           0.73     53247
+   macro avg       0.70      0.74      0.71     53247
+weighted avg       0.76      0.73      0.74     53247
+
+Epoch 5: train_loss=0.2218 val_loss=0.2376
+              precision    recall  f1-score   support
+
+           0       0.58      0.77      0.66     11347
+           1       0.87      0.73      0.79     30364
+           2       0.67      0.73      0.70     11536
+
+    accuracy                           0.74     53247
+   macro avg       0.71      0.74      0.72     53247
+weighted avg       0.76      0.74      0.75     53247
+
+Epoch 6: train_loss=0.2106 val_loss=0.2381
+              precision    recall  f1-score   support
+
+           0       0.63      0.73      0.68     11347
+           1       0.85      0.76      0.81     30364
+           2       0.65      0.74      0.69     11536
+
+    accuracy                           0.75     53247
+   macro avg       0.71      0.74      0.73     53247
+weighted avg       0.76      0.75      0.75     53247
+
+Epoch 7: train_loss=0.1963 val_loss=0.2441
+              precision    recall  f1-score   support
+
+           0       0.61      0.74      0.67     11347
+           1       0.85      0.75      0.80     30364
+           2       0.66      0.71      0.68     11536
+
+    accuracy                           0.74     53247
+   macro avg       0.70      0.74      0.72     53247
+weighted avg       0.76      0.74      0.75     53247
+
+Epoch 8: train_loss=0.1825 val_loss=0.2527
+              precision    recall  f1-score   support
+
+           0       0.59      0.73      0.65     11347
+           1       0.86      0.70      0.77     30364
+           2       0.60      0.75      0.67     11536
+
+    accuracy                           0.72     53247
+   macro avg       0.68      0.73      0.70     53247
+weighted avg       0.74      0.72      0.72     53247
+
+Epoch 9: train_loss=0.1709 val_loss=0.2694
+              precision    recall  f1-score   support
+
+           0       0.56      0.73      0.64     11347
+           1       0.85      0.71      0.78     30364
+           2       0.63      0.73      0.68     11536
+
+    accuracy                           0.72     53247
+   macro avg       0.68      0.72      0.70     53247
+weighted avg       0.74      0.72      0.73     53247
+
+Epoch 10: train_loss=0.1620 val_loss=0.2800
+Early stopping.
+[Scenario flat][Walk 3]
+              precision    recall  f1-score   support
+
+           0       0.56      0.73      0.64     11347
+           1       0.85      0.71      0.78     30364
+           2       0.63      0.73      0.68     11536
+
+    accuracy                           0.72     53247
+   macro avg       0.68      0.72      0.70     53247
+weighted avg       0.74      0.72      0.73     53247
+
+              precision    recall  f1-score   support
+
+           0       0.62      0.75      0.68      9720
+           1       0.88      0.71      0.79     26170
+           2       0.61      0.79      0.69      9741
+
+    accuracy                           0.74     45631
+   macro avg       0.70      0.75      0.72     45631
+weighted avg       0.77      0.74      0.74     45631
+
+Epoch 1: train_loss=0.2795 val_loss=0.2392
+              precision    recall  f1-score   support
+
+           0       0.69      0.73      0.71      9720
+           1       0.87      0.80      0.83     26170
+           2       0.66      0.76      0.71      9741
+
+    accuracy                           0.78     45631
+   macro avg       0.74      0.77      0.75     45631
+weighted avg       0.79      0.78      0.78     45631
+
+Epoch 2: train_loss=0.2506 val_loss=0.2142
+              precision    recall  f1-score   support
+
+           0       0.69      0.75      0.72      9720
+           1       0.88      0.78      0.82     26170
+           2       0.64      0.78      0.71      9741
+
+    accuracy                           0.77     45631
+   macro avg       0.74      0.77      0.75     45631
+weighted avg       0.79      0.77      0.78     45631
+
+Epoch 3: train_loss=0.2423 val_loss=0.2051
+              precision    recall  f1-score   support
+
+           0       0.62      0.81      0.70      9720
+           1       0.88      0.79      0.83     26170
+           2       0.74      0.73      0.73      9741
+
+    accuracy                           0.78     45631
+   macro avg       0.75      0.77      0.76     45631
+weighted avg       0.79      0.78      0.78     45631
+
+Epoch 4: train_loss=0.2304 val_loss=0.2025
+              precision    recall  f1-score   support
+
+           0       0.70      0.76      0.73      9720
+           1       0.89      0.78      0.83     26170
+           2       0.65      0.81      0.72      9741
+
+    accuracy                           0.78     45631
+   macro avg       0.75      0.78      0.76     45631
+weighted avg       0.80      0.78      0.79     45631
+
+Epoch 5: train_loss=0.2172 val_loss=0.1900
+              precision    recall  f1-score   support
+
+           0       0.68      0.80      0.74      9720
+           1       0.88      0.82      0.85     26170
+           2       0.75      0.77      0.76      9741
+
+    accuracy                           0.80     45631
+   macro avg       0.77      0.80      0.78     45631
+weighted avg       0.81      0.80      0.81     45631
+
+Epoch 6: train_loss=0.2038 val_loss=0.1700
+              precision    recall  f1-score   support
+
+           0       0.67      0.82      0.74      9720
+           1       0.92      0.71      0.80     26170
+           2       0.62      0.87      0.72      9741
+
+    accuracy                           0.77     45631
+   macro avg       0.74      0.80      0.75     45631
+weighted avg       0.80      0.77      0.77     45631
+
+Epoch 7: train_loss=0.1918 val_loss=0.1684
+              precision    recall  f1-score   support
+
+           0       0.69      0.84      0.76      9720
+           1       0.91      0.78      0.84     26170
+           2       0.71      0.82      0.76      9741
+
+    accuracy                           0.80     45631
+   macro avg       0.77      0.82      0.79     45631
+weighted avg       0.82      0.80      0.81     45631
+
+Epoch 8: train_loss=0.1775 val_loss=0.1490
+              precision    recall  f1-score   support
+
+           0       0.69      0.85      0.76      9720
+           1       0.91      0.78      0.84     26170
+           2       0.72      0.84      0.77      9741
+
+    accuracy                           0.81     45631
+   macro avg       0.77      0.82      0.79     45631
+weighted avg       0.82      0.81      0.81     45631
+
+Epoch 9: train_loss=0.1644 val_loss=0.1386
+              precision    recall  f1-score   support
+
+           0       0.69      0.87      0.77      9720
+           1       0.93      0.77      0.84     26170
+           2       0.72      0.86      0.78      9741
+
+    accuracy                           0.81     45631
+   macro avg       0.78      0.83      0.80     45631
+weighted avg       0.83      0.81      0.81     45631
+
+Epoch 10: train_loss=0.1541 val_loss=0.1314
+              precision    recall  f1-score   support
+
+           0       0.72      0.86      0.78      9720
+           1       0.93      0.76      0.84     26170
+           2       0.68      0.89      0.77      9741
+
+    accuracy                           0.81     45631
+   macro avg       0.78      0.84      0.80     45631
+weighted avg       0.83      0.81      0.81     45631
+
+Epoch 11: train_loss=0.1456 val_loss=0.1289
+              precision    recall  f1-score   support
+
+           0       0.72      0.87      0.79      9720
+           1       0.94      0.78      0.85     26170
+           2       0.72      0.89      0.80      9741
+
+    accuracy                           0.82     45631
+   macro avg       0.79      0.85      0.81     45631
+weighted avg       0.84      0.82      0.82     45631
+
+Epoch 12: train_loss=0.1401 val_loss=0.1199
+              precision    recall  f1-score   support
+
+           0       0.72      0.88      0.79      9720
+           1       0.94      0.78      0.85     26170
+           2       0.73      0.88      0.80      9741
+
+    accuracy                           0.83     45631
+   macro avg       0.80      0.85      0.82     45631
+weighted avg       0.85      0.83      0.83     45631
+
+Epoch 13: train_loss=0.1367 val_loss=0.1168
+              precision    recall  f1-score   support
+
+           0       0.73      0.88      0.80      9720
+           1       0.94      0.79      0.86     26170
+           2       0.73      0.89      0.80      9741
+
+    accuracy                           0.83     45631
+   macro avg       0.80      0.85      0.82     45631
+weighted avg       0.85      0.83      0.83     45631
+
+Epoch 14: train_loss=0.1324 val_loss=0.1141
+              precision    recall  f1-score   support
+
+           0       0.73      0.88      0.80      9720
+           1       0.94      0.78      0.85     26170
+           2       0.72      0.90      0.80      9741
+
+    accuracy                           0.83     45631
+   macro avg       0.80      0.85      0.82     45631
+weighted avg       0.85      0.83      0.83     45631
+
+Epoch 15: train_loss=0.1333 val_loss=0.1146
+[Scenario Summary] flat | model=gru
+              precision    recall  f1-score   support
+
+           0       0.74      0.89      0.81     60433
+           1       0.92      0.69      0.79    108078
+           2       0.73      0.90      0.80     59888
+
+    accuracy                           0.80    228399
+   macro avg       0.80      0.83      0.80    228399
+weighted avg       0.82      0.80      0.80    228399
+
+[Holdout Evaluation][scenario=flat] model=gru
+              precision    recall  f1-score   support
+
+           0       0.59      0.73      0.66     22402
+           1       0.84      0.64      0.73     55729
+           2       0.55      0.75      0.63     21656
+
+    accuracy                           0.69     99787
+   macro avg       0.66      0.71      0.67     99787
+weighted avg       0.72      0.69      0.69     99787
+
+[Scenario Summary] flat | model=gru | holdout
+              precision    recall  f1-score   support
+
+           0       0.59      0.73      0.66     22402
+           1       0.84      0.64      0.73     55729
+           2       0.55      0.75      0.63     21656
+
+    accuracy                           0.69     99787
+   macro avg       0.66      0.71      0.67     99787
+weighted avg       0.72      0.69      0.69     99787
+
+=== Scenario: flat | Model: transformer ===
+              precision    recall  f1-score   support
+
+           0       0.70      0.63      0.66     14412
+           1       0.76      0.50      0.60     24579
+           2       0.43      0.74      0.55     14256
+
+    accuracy                           0.60     53247
+   macro avg       0.63      0.62      0.60     53247
+weighted avg       0.66      0.60      0.60     53247
+
+Epoch 1: train_loss=0.3197 val_loss=0.3457
+              precision    recall  f1-score   support
+
+           0       0.70      0.63      0.66     14412
+           1       0.72      0.81      0.76     24579
+           2       0.69      0.60      0.64     14256
+
+    accuracy                           0.71     53247
+   macro avg       0.70      0.68      0.69     53247
+weighted avg       0.70      0.71      0.70     53247
+
+Epoch 2: train_loss=0.2952 val_loss=0.3040
+              precision    recall  f1-score   support
+
+           0       0.71      0.63      0.67     14412
+           1       0.75      0.51      0.61     24579
+           2       0.46      0.76      0.57     14256
+
+    accuracy                           0.61     53247
+   macro avg       0.64      0.64      0.62     53247
+weighted avg       0.66      0.61      0.62     53247
+
+Epoch 3: train_loss=0.2843 val_loss=0.3300
+              precision    recall  f1-score   support
+
+           0       0.78      0.55      0.65     14412
+           1       0.75      0.33      0.46     24579
+           2       0.38      0.86      0.53     14256
+
+    accuracy                           0.53     53247
+   macro avg       0.64      0.58      0.55     53247
+weighted avg       0.66      0.53      0.53     53247
+
+Epoch 4: train_loss=0.2692 val_loss=0.3662
+              precision    recall  f1-score   support
+
+           0       0.74      0.59      0.66     14412
+           1       0.75      0.48      0.58     24579
+           2       0.43      0.79      0.56     14256
+
+    accuracy                           0.59     53247
+   macro avg       0.64      0.62      0.60     53247
+weighted avg       0.66      0.59      0.60     53247
+
+Epoch 5: train_loss=0.2573 val_loss=0.3415
+              precision    recall  f1-score   support
+
+           0       0.73      0.59      0.66     14412
+           1       0.74      0.51      0.61     24579
+           2       0.45      0.78      0.57     14256
+
+    accuracy                           0.61     53247
+   macro avg       0.64      0.63      0.61     53247
+weighted avg       0.66      0.61      0.61     53247
+
+Epoch 6: train_loss=0.2410 val_loss=0.3549
+              precision    recall  f1-score   support
+
+           0       0.76      0.56      0.64     14412
+           1       0.71      0.48      0.57     24579
+           2       0.43      0.78      0.56     14256
+
+    accuracy                           0.58     53247
+   macro avg       0.63      0.61      0.59     53247
+weighted avg       0.65      0.58      0.59     53247
+
+Epoch 7: train_loss=0.2298 val_loss=0.3740
+              precision    recall  f1-score   support
+
+           0       0.78      0.45      0.57     14412
+           1       0.70      0.43      0.54     24579
+           2       0.40      0.83      0.54     14256
+
+    accuracy                           0.54     53247
+   macro avg       0.63      0.57      0.55     53247
+weighted avg       0.64      0.54      0.55     53247
+
+Epoch 8: train_loss=0.2178 val_loss=0.4357
+Early stopping.
+[Scenario flat][Walk 1]
+              precision    recall  f1-score   support
+
+           0       0.78      0.45      0.57     14412
+           1       0.70      0.43      0.54     24579
+           2       0.40      0.83      0.54     14256
+
+    accuracy                           0.54     53247
+   macro avg       0.63      0.57      0.55     53247
+weighted avg       0.64      0.54      0.55     53247
+
+              precision    recall  f1-score   support
+
+           0       0.59      0.67      0.63     12892
+           1       0.78      0.74      0.76     27045
+           2       0.66      0.65      0.65     13310
+
+    accuracy                           0.70     53247
+   macro avg       0.68      0.68      0.68     53247
+weighted avg       0.70      0.70      0.70     53247
+
+Epoch 1: train_loss=0.3165 val_loss=0.3065
+              precision    recall  f1-score   support
+
+           0       0.67      0.65      0.66     12892
+           1       0.77      0.76      0.76     27045
+           2       0.62      0.66      0.64     13310
+
+    accuracy                           0.71     53247
+   macro avg       0.69      0.69      0.69     53247
+weighted avg       0.71      0.71      0.71     53247
+
+Epoch 2: train_loss=0.2953 val_loss=0.2941
+              precision    recall  f1-score   support
+
+           0       0.68      0.66      0.67     12892
+           1       0.79      0.70      0.74     27045
+           2       0.59      0.75      0.66     13310
+
+    accuracy                           0.70     53247
+   macro avg       0.68      0.70      0.69     53247
+weighted avg       0.71      0.70      0.70     53247
+
+Epoch 3: train_loss=0.2761 val_loss=0.2871
+              precision    recall  f1-score   support
+
+           0       0.62      0.71      0.67     12892
+           1       0.81      0.63      0.71     27045
+           2       0.58      0.76      0.66     13310
+
+    accuracy                           0.68     53247
+   macro avg       0.67      0.70      0.68     53247
+weighted avg       0.71      0.68      0.69     53247
+
+Epoch 4: train_loss=0.2641 val_loss=0.2833
+              precision    recall  f1-score   support
+
+           0       0.76      0.61      0.68     12892
+           1       0.76      0.80      0.78     27045
+           2       0.65      0.71      0.68     13310
+
+    accuracy                           0.73     53247
+   macro avg       0.72      0.71      0.71     53247
+weighted avg       0.73      0.73      0.73     53247
+
+Epoch 5: train_loss=0.2515 val_loss=0.2852
+              precision    recall  f1-score   support
+
+           0       0.65      0.69      0.67     12892
+           1       0.79      0.70      0.75     27045
+           2       0.62      0.73      0.67     13310
+
+    accuracy                           0.71     53247
+   macro avg       0.69      0.71      0.70     53247
+weighted avg       0.72      0.71      0.71     53247
+
+Epoch 6: train_loss=0.2430 val_loss=0.2816
+              precision    recall  f1-score   support
+
+           0       0.61      0.73      0.67     12892
+           1       0.81      0.64      0.71     27045
+           2       0.60      0.74      0.66     13310
+
+    accuracy                           0.69     53247
+   macro avg       0.67      0.70      0.68     53247
+weighted avg       0.71      0.69      0.69     53247
+
+Epoch 7: train_loss=0.2333 val_loss=0.2876
+              precision    recall  f1-score   support
+
+           0       0.63      0.70      0.67     12892
+           1       0.80      0.68      0.74     27045
+           2       0.62      0.73      0.67     13310
+
+    accuracy                           0.70     53247
+   macro avg       0.68      0.71      0.69     53247
+weighted avg       0.71      0.70      0.70     53247
+
+Epoch 8: train_loss=0.2201 val_loss=0.2977
+              precision    recall  f1-score   support
+
+           0       0.63      0.71      0.67     12892
+           1       0.80      0.67      0.73     27045
+           2       0.60      0.73      0.66     13310
+
+    accuracy                           0.69     53247
+   macro avg       0.68      0.70      0.69     53247
+weighted avg       0.71      0.69      0.70     53247
+
+Epoch 9: train_loss=0.2110 val_loss=0.3166
+              precision    recall  f1-score   support
+
+           0       0.59      0.73      0.65     12892
+           1       0.80      0.66      0.72     27045
+           2       0.63      0.72      0.67     13310
+
+    accuracy                           0.69     53247
+   macro avg       0.67      0.70      0.68     53247
+weighted avg       0.71      0.69      0.69     53247
+
+Epoch 10: train_loss=0.2020 val_loss=0.3209
+              precision    recall  f1-score   support
+
+           0       0.63      0.71      0.67     12892
+           1       0.80      0.62      0.70     27045
+           2       0.56      0.76      0.65     13310
+
+    accuracy                           0.67     53247
+   macro avg       0.66      0.69      0.67     53247
+weighted avg       0.70      0.67      0.68     53247
+
+Epoch 11: train_loss=0.1953 val_loss=0.3297
+              precision    recall  f1-score   support
+
+           0       0.62      0.70      0.66     12892
+           1       0.80      0.65      0.71     27045
+           2       0.59      0.74      0.65     13310
+
+    accuracy                           0.68     53247
+   macro avg       0.67      0.70      0.68     53247
+weighted avg       0.70      0.68      0.69     53247
+
+Epoch 12: train_loss=0.1856 val_loss=0.3407
+Early stopping.
+[Scenario flat][Walk 2]
+              precision    recall  f1-score   support
+
+           0       0.62      0.70      0.66     12892
+           1       0.80      0.65      0.71     27045
+           2       0.59      0.74      0.65     13310
+
+    accuracy                           0.68     53247
+   macro avg       0.67      0.70      0.68     53247
+weighted avg       0.70      0.68      0.69     53247
+
+              precision    recall  f1-score   support
+
+           0       0.53      0.72      0.61     11347
+           1       0.84      0.75      0.79     30364
+           2       0.67      0.62      0.64     11536
+
+    accuracy                           0.71     53247
+   macro avg       0.68      0.70      0.68     53247
+weighted avg       0.74      0.71      0.72     53247
+
+Epoch 1: train_loss=0.3152 val_loss=0.2834
+              precision    recall  f1-score   support
+
+           0       0.61      0.71      0.66     11347
+           1       0.84      0.78      0.81     30364
+           2       0.64      0.67      0.66     11536
+
+    accuracy                           0.74     53247
+   macro avg       0.70      0.72      0.71     53247
+weighted avg       0.75      0.74      0.74     53247
+
+Epoch 2: train_loss=0.2895 val_loss=0.2527
+              precision    recall  f1-score   support
+
+           0       0.56      0.77      0.65     11347
+           1       0.85      0.76      0.80     30364
+           2       0.72      0.65      0.68     11536
+
+    accuracy                           0.74     53247
+   macro avg       0.71      0.73      0.71     53247
+weighted avg       0.76      0.74      0.74     53247
+
+Epoch 3: train_loss=0.2707 val_loss=0.2521
+              precision    recall  f1-score   support
+
+           0       0.53      0.80      0.64     11347
+           1       0.85      0.73      0.79     30364
+           2       0.73      0.65      0.69     11536
+
+    accuracy                           0.73     53247
+   macro avg       0.71      0.73      0.71     53247
+weighted avg       0.76      0.73      0.74     53247
+
+Epoch 4: train_loss=0.2608 val_loss=0.2544
+              precision    recall  f1-score   support
+
+           0       0.64      0.72      0.68     11347
+           1       0.85      0.77      0.81     30364
+           2       0.64      0.72      0.68     11536
+
+    accuracy                           0.75     53247
+   macro avg       0.71      0.74      0.72     53247
+weighted avg       0.76      0.75      0.75     53247
+
+Epoch 5: train_loss=0.2534 val_loss=0.2404
+              precision    recall  f1-score   support
+
+           0       0.61      0.74      0.67     11347
+           1       0.86      0.73      0.79     30364
+           2       0.62      0.73      0.67     11536
+
+    accuracy                           0.73     53247
+   macro avg       0.70      0.73      0.71     53247
+weighted avg       0.75      0.73      0.74     53247
+
+Epoch 6: train_loss=0.2449 val_loss=0.2469
+              precision    recall  f1-score   support
+
+           0       0.60      0.74      0.66     11347
+           1       0.86      0.70      0.78     30364
+           2       0.60      0.74      0.66     11536
+
+    accuracy                           0.72     53247
+   macro avg       0.69      0.73      0.70     53247
+weighted avg       0.75      0.72      0.73     53247
+
+Epoch 7: train_loss=0.2350 val_loss=0.2531
+              precision    recall  f1-score   support
+
+           0       0.58      0.76      0.66     11347
+           1       0.86      0.73      0.79     30364
+           2       0.65      0.71      0.68     11536
+
+    accuracy                           0.73     53247
+   macro avg       0.70      0.73      0.71     53247
+weighted avg       0.75      0.73      0.74     53247
+
+Epoch 8: train_loss=0.2264 val_loss=0.2540
+              precision    recall  f1-score   support
+
+           0       0.55      0.78      0.64     11347
+           1       0.86      0.70      0.77     30364
+           2       0.66      0.70      0.68     11536
+
+    accuracy                           0.72     53247
+   macro avg       0.69      0.73      0.70     53247
+weighted avg       0.75      0.72      0.72     53247
+
+Epoch 9: train_loss=0.2181 val_loss=0.2573
+              precision    recall  f1-score   support
+
+           0       0.56      0.77      0.65     11347
+           1       0.86      0.71      0.78     30364
+           2       0.65      0.69      0.67     11536
+
+    accuracy                           0.72     53247
+   macro avg       0.69      0.73      0.70     53247
+weighted avg       0.75      0.72      0.73     53247
+
+Epoch 10: train_loss=0.2080 val_loss=0.2699
+              precision    recall  f1-score   support
+
+           0       0.58      0.75      0.65     11347
+           1       0.85      0.71      0.78     30364
+           2       0.62      0.71      0.67     11536
+
+    accuracy                           0.72     53247
+   macro avg       0.69      0.72      0.70     53247
+weighted avg       0.74      0.72      0.73     53247
+
+Epoch 11: train_loss=0.1989 val_loss=0.2778
+Early stopping.
+[Scenario flat][Walk 3]
+              precision    recall  f1-score   support
+
+           0       0.58      0.75      0.65     11347
+           1       0.85      0.71      0.78     30364
+           2       0.62      0.71      0.67     11536
+
+    accuracy                           0.72     53247
+   macro avg       0.69      0.72      0.70     53247
+weighted avg       0.74      0.72      0.73     53247
+
+              precision    recall  f1-score   support
+
+           0       0.57      0.70      0.63      9720
+           1       0.86      0.75      0.80     26170
+           2       0.61      0.68      0.64      9741
+
+    accuracy                           0.72     45631
+   macro avg       0.68      0.71      0.69     45631
+weighted avg       0.74      0.72      0.73     45631
+
+Epoch 1: train_loss=0.3144 val_loss=0.2686
+              precision    recall  f1-score   support
+
+           0       0.60      0.76      0.67      9720
+           1       0.87      0.75      0.80     26170
+           2       0.64      0.72      0.68      9741
+
+    accuracy                           0.74     45631
+   macro avg       0.71      0.74      0.72     45631
+weighted avg       0.77      0.74      0.75     45631
+
+Epoch 2: train_loss=0.2865 val_loss=0.2421
+              precision    recall  f1-score   support
+
+           0       0.66      0.74      0.70      9720
+           1       0.88      0.72      0.79     26170
+           2       0.58      0.78      0.66      9741
+
+    accuracy                           0.74     45631
+   macro avg       0.70      0.75      0.72     45631
+weighted avg       0.76      0.74      0.74     45631
+
+Epoch 3: train_loss=0.2701 val_loss=0.2331
+              precision    recall  f1-score   support
+
+           0       0.68      0.73      0.70      9720
+           1       0.88      0.73      0.79     26170
+           2       0.57      0.79      0.66      9741
+
+    accuracy                           0.74     45631
+   macro avg       0.71      0.75      0.72     45631
+weighted avg       0.77      0.74      0.75     45631
+
+Epoch 4: train_loss=0.2610 val_loss=0.2322
+              precision    recall  f1-score   support
+
+           0       0.66      0.74      0.70      9720
+           1       0.88      0.77      0.82     26170
+           2       0.64      0.77      0.70      9741
+
+    accuracy                           0.76     45631
+   macro avg       0.73      0.76      0.74     45631
+weighted avg       0.78      0.76      0.77     45631
+
+Epoch 5: train_loss=0.2534 val_loss=0.2186
+              precision    recall  f1-score   support
+
+           0       0.58      0.79      0.67      9720
+           1       0.89      0.69      0.78     26170
+           2       0.64      0.79      0.70      9741
+
+    accuracy                           0.73     45631
+   macro avg       0.70      0.76      0.72     45631
+weighted avg       0.77      0.73      0.74     45631
+
+Epoch 6: train_loss=0.2478 val_loss=0.2283
+              precision    recall  f1-score   support
+
+           0       0.64      0.79      0.71      9720
+           1       0.89      0.72      0.80     26170
+           2       0.63      0.79      0.70      9741
+
+    accuracy                           0.75     45631
+   macro avg       0.72      0.77      0.73     45631
+weighted avg       0.78      0.75      0.76     45631
+
+Epoch 7: train_loss=0.2397 val_loss=0.1990
+              precision    recall  f1-score   support
+
+           0       0.61      0.82      0.70      9720
+           1       0.91      0.67      0.77     26170
+           2       0.61      0.81      0.70      9741
+
+    accuracy                           0.74     45631
+   macro avg       0.71      0.77      0.72     45631
+weighted avg       0.78      0.74      0.74     45631
+
+Epoch 8: train_loss=0.2308 val_loss=0.1988
+              precision    recall  f1-score   support
+
+           0       0.66      0.79      0.72      9720
+           1       0.89      0.76      0.82     26170
+           2       0.66      0.80      0.72      9741
+
+    accuracy                           0.77     45631
+   macro avg       0.74      0.78      0.75     45631
+weighted avg       0.79      0.77      0.78     45631
+
+Epoch 9: train_loss=0.2204 val_loss=0.1845
+              precision    recall  f1-score   support
+
+           0       0.65      0.81      0.72      9720
+           1       0.91      0.73      0.81     26170
+           2       0.65      0.83      0.73      9741
+
+    accuracy                           0.77     45631
+   macro avg       0.73      0.79      0.75     45631
+weighted avg       0.80      0.77      0.77     45631
+
+Epoch 10: train_loss=0.2136 val_loss=0.1745
+              precision    recall  f1-score   support
+
+           0       0.64      0.84      0.73      9720
+           1       0.92      0.69      0.79     26170
+           2       0.62      0.85      0.72      9741
+
+    accuracy                           0.75     45631
+   macro avg       0.73      0.79      0.74     45631
+weighted avg       0.80      0.75      0.76     45631
+
+Epoch 11: train_loss=0.2050 val_loss=0.1703
+              precision    recall  f1-score   support
+
+           0       0.64      0.84      0.73      9720
+           1       0.92      0.70      0.79     26170
+           2       0.63      0.86      0.73      9741
+
+    accuracy                           0.76     45631
+   macro avg       0.73      0.80      0.75     45631
+weighted avg       0.80      0.76      0.77     45631
+
+Epoch 12: train_loss=0.1980 val_loss=0.1621
+              precision    recall  f1-score   support
+
+           0       0.66      0.84      0.74      9720
+           1       0.92      0.71      0.80     26170
+           2       0.64      0.86      0.74      9741
+
+    accuracy                           0.77     45631
+   macro avg       0.74      0.80      0.76     45631
+weighted avg       0.81      0.77      0.78     45631
+
+Epoch 13: train_loss=0.1933 val_loss=0.1563
+              precision    recall  f1-score   support
+
+           0       0.67      0.83      0.74      9720
+           1       0.92      0.73      0.81     26170
+           2       0.65      0.86      0.74      9741
+
+    accuracy                           0.78     45631
+   macro avg       0.75      0.80      0.76     45631
+weighted avg       0.81      0.78      0.78     45631
+
+Epoch 14: train_loss=0.1897 val_loss=0.1516
+              precision    recall  f1-score   support
+
+           0       0.65      0.85      0.74      9720
+           1       0.92      0.72      0.81     26170
+           2       0.66      0.86      0.74      9741
+
+    accuracy                           0.77     45631
+   macro avg       0.74      0.81      0.76     45631
+weighted avg       0.81      0.77      0.78     45631
+
+Epoch 15: train_loss=0.1879 val_loss=0.1519
+[Scenario Summary] flat | model=transformer
+              precision    recall  f1-score   support
+
+           0       0.67      0.86      0.75     60433
+           1       0.90      0.61      0.73    108078
+           2       0.67      0.85      0.75     59888
+
+    accuracy                           0.74    228399
+   macro avg       0.74      0.78      0.74    228399
+weighted avg       0.78      0.74      0.74    228399
+
+[Holdout Evaluation][scenario=flat] model=transformer
+              precision    recall  f1-score   support
+
+           0       0.57      0.77      0.65     22402
+           1       0.86      0.61      0.71     55729
+           2       0.55      0.76      0.64     21656
+
+    accuracy                           0.68     99787
+   macro avg       0.66      0.71      0.67     99787
+weighted avg       0.73      0.68      0.68     99787
+
+[Scenario Summary] flat | model=transformer | holdout
+              precision    recall  f1-score   support
+
+           0       0.57      0.77      0.65     22402
+           1       0.86      0.61      0.71     55729
+           2       0.55      0.76      0.64     21656
+
+    accuracy                           0.68     99787
+   macro avg       0.66      0.71      0.67     99787
+weighted avg       0.73      0.68      0.68     99787
+
+[Scenario trend_down] samples=75929 | positive=29446 | negative=28655
+=== Scenario: trend_down | Model: gru ===
+              precision    recall  f1-score   support
+
+           0       0.72      0.72      0.72      7259
+           1       0.49      0.72      0.59      3676
+           2       0.74      0.56      0.64      6722
+
+    accuracy                           0.66     17657
+   macro avg       0.65      0.66      0.65     17657
+weighted avg       0.68      0.66      0.66     17657
+
+Epoch 1: train_loss=0.3592 val_loss=0.3502
+              precision    recall  f1-score   support
+
+           0       0.75      0.67      0.71      7259
+           1       0.41      0.87      0.56      3676
+           2       0.80      0.41      0.54      6722
+
+    accuracy                           0.61     17657
+   macro avg       0.65      0.65      0.60     17657
+weighted avg       0.70      0.61      0.61     17657
+
+Epoch 2: train_loss=0.3016 val_loss=0.3412
+              precision    recall  f1-score   support
+
+           0       0.75      0.63      0.69      7259
+           1       0.42      0.88      0.57      3676
+           2       0.81      0.48      0.61      6722
+
+    accuracy                           0.63     17657
+   macro avg       0.66      0.66      0.62     17657
+weighted avg       0.71      0.63      0.63     17657
+
+Epoch 3: train_loss=0.2946 val_loss=0.3310
+              precision    recall  f1-score   support
+
+           0       0.77      0.66      0.71      7259
+           1       0.47      0.82      0.59      3676
+           2       0.76      0.56      0.65      6722
+
+    accuracy                           0.66     17657
+   macro avg       0.66      0.68      0.65     17657
+weighted avg       0.70      0.66      0.66     17657
+
+Epoch 4: train_loss=0.2810 val_loss=0.3254
+              precision    recall  f1-score   support
+
+           0       0.84      0.52      0.64      7259
+           1       0.45      0.83      0.58      3676
+           2       0.68      0.66      0.67      6722
+
+    accuracy                           0.63     17657
+   macro avg       0.66      0.67      0.63     17657
+weighted avg       0.70      0.63      0.64     17657
+
+Epoch 5: train_loss=0.2674 val_loss=0.3384
+              precision    recall  f1-score   support
+
+           0       0.73      0.69      0.71      7259
+           1       0.47      0.81      0.59      3676
+           2       0.78      0.51      0.62      6722
+
+    accuracy                           0.65     17657
+   macro avg       0.66      0.67      0.64     17657
+weighted avg       0.70      0.65      0.65     17657
+
+Epoch 6: train_loss=0.2546 val_loss=0.3319
+              precision    recall  f1-score   support
+
+           0       0.80      0.61      0.69      7259
+           1       0.48      0.78      0.59      3676
+           2       0.71      0.65      0.68      6722
+
+    accuracy                           0.66     17657
+   macro avg       0.66      0.68      0.65     17657
+weighted avg       0.70      0.66      0.67     17657
+
+Epoch 7: train_loss=0.2392 val_loss=0.3387
+              precision    recall  f1-score   support
+
+           0       0.75      0.67      0.71      7259
+           1       0.44      0.82      0.57      3676
+           2       0.77      0.50      0.60      6722
+
+    accuracy                           0.64     17657
+   macro avg       0.65      0.66      0.63     17657
+weighted avg       0.69      0.64      0.64     17657
+
+Epoch 8: train_loss=0.2286 val_loss=0.3642
+              precision    recall  f1-score   support
+
+           0       0.76      0.66      0.70      7259
+           1       0.46      0.80      0.58      3676
+           2       0.75      0.54      0.63      6722
+
+    accuracy                           0.64     17657
+   macro avg       0.65      0.67      0.64     17657
+weighted avg       0.69      0.64      0.65     17657
+
+Epoch 9: train_loss=0.2181 val_loss=0.3619
+              precision    recall  f1-score   support
+
+           0       0.77      0.67      0.71      7259
+           1       0.47      0.77      0.59      3676
+           2       0.72      0.58      0.64      6722
+
+    accuracy                           0.66     17657
+   macro avg       0.66      0.67      0.65     17657
+weighted avg       0.69      0.66      0.66     17657
+
+Epoch 10: train_loss=0.2124 val_loss=0.3812
+Early stopping.
+[Scenario trend_down][Walk 1]
+              precision    recall  f1-score   support
+
+           0       0.77      0.67      0.71      7259
+           1       0.47      0.77      0.59      3676
+           2       0.72      0.58      0.64      6722
+
+    accuracy                           0.66     17657
+   macro avg       0.66      0.67      0.65     17657
+weighted avg       0.69      0.66      0.66     17657
+
+              precision    recall  f1-score   support
+
+           0       0.83      0.59      0.69      6237
+           1       0.47      0.91      0.62      5036
+           2       0.81      0.44      0.57      6384
+
+    accuracy                           0.63     17657
+   macro avg       0.70      0.65      0.63     17657
+weighted avg       0.72      0.63      0.63     17657
+
+Epoch 1: train_loss=0.3344 val_loss=0.3287
+              precision    recall  f1-score   support
+
+           0       0.82      0.58      0.68      6237
+           1       0.47      0.92      0.63      5036
+           2       0.86      0.46      0.60      6384
+
+    accuracy                           0.64     17657
+   macro avg       0.72      0.65      0.64     17657
+weighted avg       0.74      0.64      0.64     17657
+
+Epoch 2: train_loss=0.2959 val_loss=0.3256
+              precision    recall  f1-score   support
+
+           0       0.86      0.49      0.62      6237
+           1       0.47      0.93      0.62      5036
+           2       0.82      0.54      0.65      6384
+
+    accuracy                           0.63     17657
+   macro avg       0.72      0.65      0.63     17657
+weighted avg       0.74      0.63      0.63     17657
+
+Epoch 3: train_loss=0.2804 val_loss=0.3302
+              precision    recall  f1-score   support
+
+           0       0.79      0.62      0.70      6237
+           1       0.48      0.90      0.63      5036
+           2       0.84      0.43      0.57      6384
+
+    accuracy                           0.63     17657
+   macro avg       0.70      0.65      0.63     17657
+weighted avg       0.72      0.63      0.63     17657
+
+Epoch 4: train_loss=0.2697 val_loss=0.3376
+              precision    recall  f1-score   support
+
+           0       0.84      0.58      0.69      6237
+           1       0.48      0.91      0.63      5036
+           2       0.82      0.50      0.62      6384
+
+    accuracy                           0.64     17657
+   macro avg       0.71      0.66      0.64     17657
+weighted avg       0.73      0.64      0.65     17657
+
+Epoch 5: train_loss=0.2616 val_loss=0.3184
+              precision    recall  f1-score   support
+
+           0       0.81      0.61      0.70      6237
+           1       0.47      0.90      0.62      5036
+           2       0.81      0.43      0.56      6384
+
+    accuracy                           0.63     17657
+   macro avg       0.70      0.65      0.63     17657
+weighted avg       0.72      0.63      0.63     17657
+
+Epoch 6: train_loss=0.2429 val_loss=0.3292
+              precision    recall  f1-score   support
+
+           0       0.84      0.54      0.66      6237
+           1       0.47      0.91      0.62      5036
+           2       0.79      0.48      0.60      6384
+
+    accuracy                           0.63     17657
+   macro avg       0.70      0.64      0.63     17657
+weighted avg       0.72      0.63      0.63     17657
+
+Epoch 7: train_loss=0.2393 val_loss=0.3313
+              precision    recall  f1-score   support
+
+           0       0.83      0.54      0.66      6237
+           1       0.47      0.91      0.62      5036
+           2       0.82      0.50      0.62      6384
+
+    accuracy                           0.63     17657
+   macro avg       0.71      0.65      0.63     17657
+weighted avg       0.72      0.63      0.63     17657
+
+Epoch 8: train_loss=0.2258 val_loss=0.3322
+              precision    recall  f1-score   support
+
+           0       0.79      0.60      0.68      6237
+           1       0.48      0.89      0.62      5036
+           2       0.81      0.45      0.58      6384
+
+    accuracy                           0.63     17657
+   macro avg       0.69      0.65      0.63     17657
+weighted avg       0.71      0.63      0.63     17657
+
+Epoch 9: train_loss=0.2156 val_loss=0.3442
+              precision    recall  f1-score   support
+
+           0       0.81      0.59      0.69      6237
+           1       0.49      0.89      0.63      5036
+           2       0.81      0.48      0.60      6384
+
+    accuracy                           0.64     17657
+   macro avg       0.70      0.66      0.64     17657
+weighted avg       0.72      0.64      0.64     17657
+
+Epoch 10: train_loss=0.2056 val_loss=0.3392
+              precision    recall  f1-score   support
+
+           0       0.79      0.63      0.70      6237
+           1       0.49      0.87      0.63      5036
+           2       0.80      0.49      0.60      6384
+
+    accuracy                           0.64     17657
+   macro avg       0.70      0.66      0.65     17657
+weighted avg       0.71      0.64      0.65     17657
+
+Epoch 11: train_loss=0.1995 val_loss=0.3358
+Early stopping.
+[Scenario trend_down][Walk 2]
+              precision    recall  f1-score   support
+
+           0       0.79      0.63      0.70      6237
+           1       0.49      0.87      0.63      5036
+           2       0.80      0.49      0.60      6384
+
+    accuracy                           0.64     17657
+   macro avg       0.70      0.66      0.65     17657
+weighted avg       0.71      0.64      0.65     17657
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.62      0.69      5928
+           1       0.57      0.85      0.68      5449
+           2       0.78      0.60      0.68      6280
+
+    accuracy                           0.68     17657
+   macro avg       0.71      0.69      0.68     17657
+weighted avg       0.72      0.68      0.68     17657
+
+Epoch 1: train_loss=0.3173 val_loss=0.3067
+              precision    recall  f1-score   support
+
+           0       0.78      0.66      0.72      5928
+           1       0.57      0.86      0.68      5449
+           2       0.79      0.56      0.66      6280
+
+    accuracy                           0.68     17657
+   macro avg       0.71      0.69      0.68     17657
+weighted avg       0.72      0.68      0.68     17657
+
+Epoch 2: train_loss=0.2840 val_loss=0.3068
+              precision    recall  f1-score   support
+
+           0       0.80      0.65      0.71      5928
+           1       0.59      0.84      0.69      5449
+           2       0.77      0.63      0.69      6280
+
+    accuracy                           0.70     17657
+   macro avg       0.72      0.70      0.70     17657
+weighted avg       0.72      0.70      0.70     17657
+
+Epoch 3: train_loss=0.2746 val_loss=0.3020
+              precision    recall  f1-score   support
+
+           0       0.78      0.66      0.71      5928
+           1       0.57      0.84      0.68      5449
+           2       0.78      0.58      0.66      6280
+
+    accuracy                           0.69     17657
+   macro avg       0.71      0.69      0.69     17657
+weighted avg       0.72      0.69      0.69     17657
+
+Epoch 4: train_loss=0.2606 val_loss=0.3050
+              precision    recall  f1-score   support
+
+           0       0.80      0.64      0.71      5928
+           1       0.53      0.89      0.67      5449
+           2       0.82      0.50      0.62      6280
+
+    accuracy                           0.67     17657
+   macro avg       0.72      0.68      0.67     17657
+weighted avg       0.73      0.67      0.67     17657
+
+Epoch 5: train_loss=0.2559 val_loss=0.3077
+              precision    recall  f1-score   support
+
+           0       0.74      0.70      0.72      5928
+           1       0.59      0.81      0.68      5449
+           2       0.80      0.59      0.68      6280
+
+    accuracy                           0.69     17657
+   macro avg       0.71      0.70      0.69     17657
+weighted avg       0.72      0.69      0.69     17657
+
+Epoch 6: train_loss=0.2410 val_loss=0.3128
+              precision    recall  f1-score   support
+
+           0       0.77      0.66      0.71      5928
+           1       0.54      0.86      0.66      5449
+           2       0.80      0.51      0.62      6280
+
+    accuracy                           0.67     17657
+   macro avg       0.70      0.67      0.66     17657
+weighted avg       0.71      0.67      0.66     17657
+
+Epoch 7: train_loss=0.2300 val_loss=0.3261
+              precision    recall  f1-score   support
+
+           0       0.73      0.71      0.72      5928
+           1       0.58      0.80      0.67      5449
+           2       0.80      0.55      0.65      6280
+
+    accuracy                           0.68     17657
+   macro avg       0.70      0.69      0.68     17657
+weighted avg       0.71      0.68      0.68     17657
+
+Epoch 8: train_loss=0.2219 val_loss=0.3421
+              precision    recall  f1-score   support
+
+           0       0.76      0.64      0.70      5928
+           1       0.57      0.84      0.68      5449
+           2       0.78      0.58      0.66      6280
+
+    accuracy                           0.68     17657
+   macro avg       0.70      0.68      0.68     17657
+weighted avg       0.71      0.68      0.68     17657
+
+Epoch 9: train_loss=0.2112 val_loss=0.3440
+Early stopping.
+[Scenario trend_down][Walk 3]
+              precision    recall  f1-score   support
+
+           0       0.76      0.64      0.70      5928
+           1       0.57      0.84      0.68      5449
+           2       0.78      0.58      0.66      6280
+
+    accuracy                           0.68     17657
+   macro avg       0.70      0.68      0.68     17657
+weighted avg       0.71      0.68      0.68     17657
+
+              precision    recall  f1-score   support
+
+           0       0.76      0.64      0.70      5163
+           1       0.53      0.90      0.67      4541
+           2       0.84      0.48      0.61      5421
+
+    accuracy                           0.66     15125
+   macro avg       0.71      0.67      0.66     15125
+weighted avg       0.72      0.66      0.66     15125
+
+Epoch 1: train_loss=0.3096 val_loss=0.3165
+              precision    recall  f1-score   support
+
+           0       0.83      0.60      0.70      5163
+           1       0.57      0.88      0.69      4541
+           2       0.80      0.64      0.71      5421
+
+    accuracy                           0.70     15125
+   macro avg       0.73      0.71      0.70     15125
+weighted avg       0.74      0.70      0.70     15125
+
+Epoch 2: train_loss=0.2821 val_loss=0.2859
+              precision    recall  f1-score   support
+
+           0       0.84      0.62      0.71      5163
+           1       0.57      0.89      0.70      4541
+           2       0.80      0.63      0.71      5421
+
+    accuracy                           0.71     15125
+   macro avg       0.74      0.71      0.71     15125
+weighted avg       0.75      0.71      0.71     15125
+
+Epoch 3: train_loss=0.2684 val_loss=0.2739
+              precision    recall  f1-score   support
+
+           0       0.84      0.60      0.70      5163
+           1       0.58      0.89      0.70      4541
+           2       0.79      0.65      0.72      5421
+
+    accuracy                           0.71     15125
+   macro avg       0.74      0.72      0.71     15125
+weighted avg       0.75      0.71      0.71     15125
+
+Epoch 4: train_loss=0.2582 val_loss=0.2710
+              precision    recall  f1-score   support
+
+           0       0.82      0.68      0.74      5163
+           1       0.62      0.86      0.72      4541
+           2       0.80      0.67      0.73      5421
+
+    accuracy                           0.73     15125
+   macro avg       0.75      0.73      0.73     15125
+weighted avg       0.75      0.73      0.73     15125
+
+Epoch 5: train_loss=0.2512 val_loss=0.2513
+              precision    recall  f1-score   support
+
+           0       0.83      0.66      0.73      5163
+           1       0.60      0.89      0.72      4541
+           2       0.81      0.64      0.71      5421
+
+    accuracy                           0.72     15125
+   macro avg       0.75      0.73      0.72     15125
+weighted avg       0.75      0.72      0.72     15125
+
+Epoch 6: train_loss=0.2413 val_loss=0.2452
+              precision    recall  f1-score   support
+
+           0       0.80      0.72      0.76      5163
+           1       0.62      0.88      0.73      4541
+           2       0.83      0.62      0.71      5421
+
+    accuracy                           0.73     15125
+   macro avg       0.75      0.74      0.73     15125
+weighted avg       0.76      0.73      0.73     15125
+
+Epoch 7: train_loss=0.2318 val_loss=0.2392
+              precision    recall  f1-score   support
+
+           0       0.83      0.69      0.75      5163
+           1       0.62      0.90      0.73      4541
+           2       0.84      0.65      0.73      5421
+
+    accuracy                           0.74     15125
+   macro avg       0.76      0.75      0.74     15125
+weighted avg       0.77      0.74      0.74     15125
+
+Epoch 8: train_loss=0.2237 val_loss=0.2253
+              precision    recall  f1-score   support
+
+           0       0.84      0.68      0.75      5163
+           1       0.63      0.90      0.74      4541
+           2       0.83      0.68      0.74      5421
+
+    accuracy                           0.74     15125
+   macro avg       0.76      0.75      0.74     15125
+weighted avg       0.77      0.74      0.74     15125
+
+Epoch 9: train_loss=0.2158 val_loss=0.2198
+              precision    recall  f1-score   support
+
+           0       0.86      0.65      0.74      5163
+           1       0.59      0.95      0.73      4541
+           2       0.84      0.61      0.71      5421
+
+    accuracy                           0.72     15125
+   macro avg       0.76      0.74      0.72     15125
+weighted avg       0.77      0.72      0.72     15125
+
+Epoch 10: train_loss=0.2044 val_loss=0.2209
+              precision    recall  f1-score   support
+
+           0       0.85      0.69      0.76      5163
+           1       0.63      0.93      0.75      4541
+           2       0.85      0.67      0.75      5421
+
+    accuracy                           0.75     15125
+   macro avg       0.78      0.76      0.75     15125
+weighted avg       0.78      0.75      0.75     15125
+
+Epoch 11: train_loss=0.2004 val_loss=0.2013
+              precision    recall  f1-score   support
+
+           0       0.86      0.68      0.76      5163
+           1       0.65      0.92      0.76      4541
+           2       0.83      0.70      0.76      5421
+
+    accuracy                           0.76     15125
+   macro avg       0.78      0.77      0.76     15125
+weighted avg       0.79      0.76      0.76     15125
+
+Epoch 12: train_loss=0.1928 val_loss=0.1951
+              precision    recall  f1-score   support
+
+           0       0.85      0.71      0.77      5163
+           1       0.65      0.92      0.76      4541
+           2       0.84      0.69      0.75      5421
+
+    accuracy                           0.76     15125
+   macro avg       0.78      0.77      0.76     15125
+weighted avg       0.79      0.76      0.76     15125
+
+Epoch 13: train_loss=0.1870 val_loss=0.1927
+              precision    recall  f1-score   support
+
+           0       0.85      0.70      0.77      5163
+           1       0.65      0.92      0.76      4541
+           2       0.84      0.68      0.75      5421
+
+    accuracy                           0.76     15125
+   macro avg       0.78      0.77      0.76     15125
+weighted avg       0.79      0.76      0.76     15125
+
+Epoch 14: train_loss=0.1834 val_loss=0.1911
+              precision    recall  f1-score   support
+
+           0       0.85      0.70      0.77      5163
+           1       0.65      0.93      0.76      4541
+           2       0.84      0.69      0.76      5421
+
+    accuracy                           0.76     15125
+   macro avg       0.78      0.77      0.76     15125
+weighted avg       0.79      0.76      0.76     15125
+
+Epoch 15: train_loss=0.1840 val_loss=0.1900
+[Scenario Summary] trend_down | model=gru
+              precision    recall  f1-score   support
+
+           0       0.84      0.74      0.78     28636
+           1       0.62      0.90      0.73     17828
+           2       0.84      0.70      0.76     29405
+
+    accuracy                           0.76     75869
+   macro avg       0.76      0.78      0.76     75869
+weighted avg       0.79      0.76      0.76     75869
+
+[Holdout Evaluation][scenario=trend_down] model=gru
+              precision    recall  f1-score   support
+
+           0       0.78      0.66      0.71      7692
+           1       0.59      0.82      0.69      7946
+           2       0.76      0.58      0.66      7715
+
+    accuracy                           0.69     23353
+   macro avg       0.71      0.68      0.69     23353
+weighted avg       0.71      0.69      0.69     23353
+
+[Scenario Summary] trend_down | model=gru | holdout
+              precision    recall  f1-score   support
+
+           0       0.78      0.66      0.71      7692
+           1       0.59      0.82      0.69      7946
+           2       0.76      0.58      0.66      7715
+
+    accuracy                           0.69     23353
+   macro avg       0.71      0.68      0.69     23353
+weighted avg       0.71      0.69      0.69     23353
+
+=== Scenario: trend_down | Model: transformer ===
+              precision    recall  f1-score   support
+
+           0       0.84      0.45      0.59      7259
+           1       0.45      0.76      0.57      3676
+           2       0.64      0.72      0.68      6722
+
+    accuracy                           0.62     17657
+   macro avg       0.65      0.65      0.61     17657
+weighted avg       0.68      0.62      0.62     17657
+
+Epoch 1: train_loss=0.3867 val_loss=0.3925
+              precision    recall  f1-score   support
+
+           0       0.83      0.56      0.67      7259
+           1       0.45      0.85      0.59      3676
+           2       0.72      0.63      0.67      6722
+
+    accuracy                           0.65     17657
+   macro avg       0.67      0.68      0.64     17657
+weighted avg       0.71      0.65      0.65     17657
+
+Epoch 2: train_loss=0.3177 val_loss=0.3591
+              precision    recall  f1-score   support
+
+           0       0.83      0.56      0.67      7259
+           1       0.42      0.84      0.56      3676
+           2       0.69      0.56      0.62      6722
+
+    accuracy                           0.62     17657
+   macro avg       0.65      0.65      0.62     17657
+weighted avg       0.69      0.62      0.63     17657
+
+Epoch 3: train_loss=0.3052 val_loss=0.3586
+              precision    recall  f1-score   support
+
+           0       0.67      0.73      0.69      7259
+           1       0.49      0.75      0.60      3676
+           2       0.78      0.47      0.59      6722
+
+    accuracy                           0.64     17657
+   macro avg       0.64      0.65      0.63     17657
+weighted avg       0.67      0.64      0.63     17657
+
+Epoch 4: train_loss=0.2842 val_loss=0.3777
+              precision    recall  f1-score   support
+
+           0       0.83      0.53      0.64      7259
+           1       0.43      0.84      0.57      3676
+           2       0.69      0.59      0.63      6722
+
+    accuracy                           0.62     17657
+   macro avg       0.65      0.65      0.61     17657
+weighted avg       0.69      0.62      0.62     17657
+
+Epoch 5: train_loss=0.2735 val_loss=0.3760
+              precision    recall  f1-score   support
+
+           0       0.73      0.64      0.68      7259
+           1       0.44      0.74      0.55      3676
+           2       0.71      0.54      0.61      6722
+
+    accuracy                           0.62     17657
+   macro avg       0.62      0.64      0.61     17657
+weighted avg       0.66      0.62      0.63     17657
+
+Epoch 6: train_loss=0.2545 val_loss=0.4311
+              precision    recall  f1-score   support
+
+           0       0.84      0.50      0.63      7259
+           1       0.44      0.76      0.56      3676
+           2       0.62      0.64      0.63      6722
+
+    accuracy                           0.61     17657
+   macro avg       0.63      0.63      0.61     17657
+weighted avg       0.67      0.61      0.61     17657
+
+Epoch 7: train_loss=0.2379 val_loss=0.4813
+              precision    recall  f1-score   support
+
+           0       0.77      0.56      0.65      7259
+           1       0.44      0.75      0.56      3676
+           2       0.67      0.61      0.64      6722
+
+    accuracy                           0.62     17657
+   macro avg       0.63      0.64      0.62     17657
+weighted avg       0.66      0.62      0.63     17657
+
+Epoch 8: train_loss=0.2210 val_loss=0.4902
+              precision    recall  f1-score   support
+
+           0       0.74      0.62      0.67      7259
+           1       0.46      0.70      0.56      3676
+           2       0.65      0.59      0.62      6722
+
+    accuracy                           0.62     17657
+   macro avg       0.62      0.64      0.62     17657
+weighted avg       0.65      0.62      0.63     17657
+
+Epoch 9: train_loss=0.2054 val_loss=0.5831
+Early stopping.
+[Scenario trend_down][Walk 1]
+              precision    recall  f1-score   support
+
+           0       0.74      0.62      0.67      7259
+           1       0.46      0.70      0.56      3676
+           2       0.65      0.59      0.62      6722
+
+    accuracy                           0.62     17657
+   macro avg       0.62      0.64      0.62     17657
+weighted avg       0.65      0.62      0.63     17657
+
+              precision    recall  f1-score   support
+
+           0       0.86      0.53      0.66      6237
+           1       0.46      0.93      0.62      5036
+           2       0.80      0.45      0.58      6384
+
+    accuracy                           0.62     17657
+   macro avg       0.71      0.64      0.62     17657
+weighted avg       0.72      0.62      0.62     17657
+
+Epoch 1: train_loss=0.3459 val_loss=0.3569
+              precision    recall  f1-score   support
+
+           0       0.79      0.53      0.63      6237
+           1       0.44      0.94      0.59      5036
+           2       0.84      0.35      0.50      6384
+
+    accuracy                           0.58     17657
+   macro avg       0.69      0.61      0.58     17657
+weighted avg       0.71      0.58      0.57     17657
+
+Epoch 2: train_loss=0.3137 val_loss=0.3618
+              precision    recall  f1-score   support
+
+           0       0.82      0.46      0.59      6237
+           1       0.46      0.93      0.61      5036
+           2       0.82      0.50      0.62      6384
+
+    accuracy                           0.61     17657
+   macro avg       0.70      0.63      0.61     17657
+weighted avg       0.72      0.61      0.61     17657
+
+Epoch 3: train_loss=0.3014 val_loss=0.3616
+              precision    recall  f1-score   support
+
+           0       0.82      0.53      0.65      6237
+           1       0.49      0.90      0.64      5036
+           2       0.80      0.55      0.65      6384
+
+    accuracy                           0.65     17657
+   macro avg       0.70      0.66      0.65     17657
+weighted avg       0.72      0.65      0.65     17657
+
+Epoch 4: train_loss=0.2892 val_loss=0.3412
+              precision    recall  f1-score   support
+
+           0       0.80      0.59      0.68      6237
+           1       0.50      0.89      0.64      5036
+           2       0.82      0.52      0.63      6384
+
+    accuracy                           0.65     17657
+   macro avg       0.70      0.67      0.65     17657
+weighted avg       0.72      0.65      0.65     17657
+
+Epoch 5: train_loss=0.2765 val_loss=0.3540
+              precision    recall  f1-score   support
+
+           0       0.73      0.65      0.69      6237
+           1       0.54      0.84      0.65      5036
+           2       0.82      0.54      0.65      6384
+
+    accuracy                           0.66     17657
+   macro avg       0.69      0.68      0.66     17657
+weighted avg       0.71      0.66      0.66     17657
+
+Epoch 6: train_loss=0.2614 val_loss=0.3601
+              precision    recall  f1-score   support
+
+           0       0.80      0.55      0.65      6237
+           1       0.46      0.89      0.61      5036
+           2       0.75      0.44      0.55      6384
+
+    accuracy                           0.61     17657
+   macro avg       0.67      0.63      0.60     17657
+weighted avg       0.69      0.61      0.60     17657
+
+Epoch 7: train_loss=0.2537 val_loss=0.3896
+              precision    recall  f1-score   support
+
+           0       0.82      0.49      0.61      6237
+           1       0.48      0.88      0.62      5036
+           2       0.74      0.53      0.62      6384
+
+    accuracy                           0.62     17657
+   macro avg       0.68      0.64      0.62     17657
+weighted avg       0.69      0.62      0.62     17657
+
+Epoch 8: train_loss=0.2396 val_loss=0.3801
+              precision    recall  f1-score   support
+
+           0       0.77      0.59      0.67      6237
+           1       0.50      0.86      0.63      5036
+           2       0.76      0.50      0.60      6384
+
+    accuracy                           0.63     17657
+   macro avg       0.68      0.65      0.63     17657
+weighted avg       0.69      0.63      0.63     17657
+
+Epoch 9: train_loss=0.2251 val_loss=0.4115
+              precision    recall  f1-score   support
+
+           0       0.78      0.55      0.65      6237
+           1       0.47      0.88      0.61      5036
+           2       0.76      0.46      0.57      6384
+
+    accuracy                           0.61     17657
+   macro avg       0.67      0.63      0.61     17657
+weighted avg       0.69      0.61      0.61     17657
+
+Epoch 10: train_loss=0.2128 val_loss=0.4123
+Early stopping.
+[Scenario trend_down][Walk 2]
+              precision    recall  f1-score   support
+
+           0       0.78      0.55      0.65      6237
+           1       0.47      0.88      0.61      5036
+           2       0.76      0.46      0.57      6384
+
+    accuracy                           0.61     17657
+   macro avg       0.67      0.63      0.61     17657
+weighted avg       0.69      0.61      0.61     17657
+
+              precision    recall  f1-score   support
+
+           0       0.72      0.65      0.68      5928
+           1       0.58      0.85      0.69      5449
+           2       0.80      0.55      0.65      6280
+
+    accuracy                           0.67     17657
+   macro avg       0.70      0.68      0.67     17657
+weighted avg       0.70      0.67      0.67     17657
+
+Epoch 1: train_loss=0.3260 val_loss=0.3332
+              precision    recall  f1-score   support
+
+           0       0.75      0.62      0.68      5928
+           1       0.58      0.85      0.69      5449
+           2       0.76      0.59      0.66      6280
+
+    accuracy                           0.68     17657
+   macro avg       0.70      0.68      0.68     17657
+weighted avg       0.70      0.68      0.68     17657
+
+Epoch 2: train_loss=0.3049 val_loss=0.3299
+              precision    recall  f1-score   support
+
+           0       0.80      0.58      0.67      5928
+           1       0.55      0.87      0.68      5449
+           2       0.75      0.57      0.65      6280
+
+    accuracy                           0.67     17657
+   macro avg       0.70      0.67      0.67     17657
+weighted avg       0.71      0.67      0.66     17657
+
+Epoch 3: train_loss=0.2951 val_loss=0.3303
+              precision    recall  f1-score   support
+
+           0       0.78      0.59      0.67      5928
+           1       0.56      0.85      0.68      5449
+           2       0.74      0.59      0.66      6280
+
+    accuracy                           0.67     17657
+   macro avg       0.70      0.68      0.67     17657
+weighted avg       0.70      0.67      0.67     17657
+
+Epoch 4: train_loss=0.2871 val_loss=0.3387
+              precision    recall  f1-score   support
+
+           0       0.77      0.60      0.67      5928
+           1       0.55      0.85      0.67      5449
+           2       0.77      0.57      0.65      6280
+
+    accuracy                           0.67     17657
+   macro avg       0.70      0.67      0.67     17657
+weighted avg       0.70      0.67      0.67     17657
+
+Epoch 5: train_loss=0.2772 val_loss=0.3396
+              precision    recall  f1-score   support
+
+           0       0.79      0.57      0.66      5928
+           1       0.54      0.89      0.67      5449
+           2       0.78      0.55      0.65      6280
+
+    accuracy                           0.66     17657
+   macro avg       0.70      0.67      0.66     17657
+weighted avg       0.71      0.66      0.66     17657
+
+Epoch 6: train_loss=0.2695 val_loss=0.3481
+              precision    recall  f1-score   support
+
+           0       0.75      0.56      0.64      5928
+           1       0.50      0.90      0.64      5449
+           2       0.79      0.43      0.56      6280
+
+    accuracy                           0.62     17657
+   macro avg       0.68      0.63      0.61     17657
+weighted avg       0.69      0.62      0.61     17657
+
+Epoch 7: train_loss=0.2590 val_loss=0.3836
+              precision    recall  f1-score   support
+
+           0       0.68      0.67      0.67      5928
+           1       0.58      0.76      0.66      5449
+           2       0.75      0.57      0.65      6280
+
+    accuracy                           0.66     17657
+   macro avg       0.67      0.66      0.66     17657
+weighted avg       0.67      0.66      0.66     17657
+
+Epoch 8: train_loss=0.2463 val_loss=0.4074
+Early stopping.
+[Scenario trend_down][Walk 3]
+              precision    recall  f1-score   support
+
+           0       0.68      0.67      0.67      5928
+           1       0.58      0.76      0.66      5449
+           2       0.75      0.57      0.65      6280
+
+    accuracy                           0.66     17657
+   macro avg       0.67      0.66      0.66     17657
+weighted avg       0.67      0.66      0.66     17657
+
+              precision    recall  f1-score   support
+
+           0       0.80      0.59      0.68      5163
+           1       0.55      0.89      0.68      4541
+           2       0.79      0.57      0.66      5421
+
+    accuracy                           0.67     15125
+   macro avg       0.71      0.68      0.67     15125
+weighted avg       0.72      0.67      0.67     15125
+
+Epoch 1: train_loss=0.3292 val_loss=0.3328
+              precision    recall  f1-score   support
+
+           0       0.85      0.55      0.67      5163
+           1       0.55      0.90      0.68      4541
+           2       0.76      0.62      0.68      5421
+
+    accuracy                           0.68     15125
+   macro avg       0.72      0.69      0.68     15125
+weighted avg       0.73      0.68      0.68     15125
+
+Epoch 2: train_loss=0.3023 val_loss=0.3137
+              precision    recall  f1-score   support
+
+           0       0.82      0.58      0.68      5163
+           1       0.57      0.89      0.70      4541
+           2       0.77      0.62      0.69      5421
+
+    accuracy                           0.69     15125
+   macro avg       0.72      0.70      0.69     15125
+weighted avg       0.73      0.69      0.69     15125
+
+Epoch 3: train_loss=0.2949 val_loss=0.3063
+              precision    recall  f1-score   support
+
+           0       0.81      0.61      0.70      5163
+           1       0.56      0.90      0.69      4541
+           2       0.80      0.57      0.67      5421
+
+    accuracy                           0.68     15125
+   macro avg       0.72      0.69      0.68     15125
+weighted avg       0.73      0.68      0.68     15125
+
+Epoch 4: train_loss=0.2875 val_loss=0.2954
+              precision    recall  f1-score   support
+
+           0       0.75      0.68      0.71      5163
+           1       0.60      0.86      0.71      4541
+           2       0.80      0.59      0.68      5421
+
+    accuracy                           0.70     15125
+   macro avg       0.72      0.71      0.70     15125
+weighted avg       0.72      0.70      0.70     15125
+
+Epoch 5: train_loss=0.2792 val_loss=0.2793
+              precision    recall  f1-score   support
+
+           0       0.77      0.67      0.72      5163
+           1       0.59      0.89      0.71      4541
+           2       0.82      0.57      0.67      5421
+
+    accuracy                           0.70     15125
+   macro avg       0.73      0.71      0.70     15125
+weighted avg       0.73      0.70      0.70     15125
+
+Epoch 6: train_loss=0.2693 val_loss=0.2744
+              precision    recall  f1-score   support
+
+           0       0.81      0.65      0.72      5163
+           1       0.59      0.90      0.71      4541
+           2       0.81      0.61      0.69      5421
+
+    accuracy                           0.71     15125
+   macro avg       0.74      0.72      0.71     15125
+weighted avg       0.74      0.71      0.71     15125
+
+Epoch 7: train_loss=0.2606 val_loss=0.2603
+              precision    recall  f1-score   support
+
+           0       0.80      0.67      0.73      5163
+           1       0.62      0.88      0.73      4541
+           2       0.80      0.65      0.71      5421
+
+    accuracy                           0.72     15125
+   macro avg       0.74      0.73      0.72     15125
+weighted avg       0.75      0.72      0.72     15125
+
+Epoch 8: train_loss=0.2469 val_loss=0.2420
+              precision    recall  f1-score   support
+
+           0       0.83      0.66      0.74      5163
+           1       0.60      0.91      0.73      4541
+           2       0.82      0.61      0.70      5421
+
+    accuracy                           0.72     15125
+   macro avg       0.75      0.73      0.72     15125
+weighted avg       0.76      0.72      0.72     15125
+
+Epoch 9: train_loss=0.2369 val_loss=0.2410
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76      5163
+           1       0.65      0.88      0.74      4541
+           2       0.83      0.62      0.71      5421
+
+    accuracy                           0.74     15125
+   macro avg       0.75      0.75      0.74     15125
+weighted avg       0.76      0.74      0.74     15125
+
+Epoch 10: train_loss=0.2248 val_loss=0.2180
+              precision    recall  f1-score   support
+
+           0       0.81      0.70      0.75      5163
+           1       0.63      0.91      0.75      4541
+           2       0.83      0.63      0.72      5421
+
+    accuracy                           0.74     15125
+   macro avg       0.76      0.75      0.74     15125
+weighted avg       0.77      0.74      0.74     15125
+
+Epoch 11: train_loss=0.2117 val_loss=0.2083
+              precision    recall  f1-score   support
+
+           0       0.84      0.71      0.77      5163
+           1       0.66      0.90      0.76      4541
+           2       0.81      0.67      0.74      5421
+
+    accuracy                           0.75     15125
+   macro avg       0.77      0.76      0.76     15125
+weighted avg       0.77      0.75      0.75     15125
+
+Epoch 12: train_loss=0.2061 val_loss=0.1947
+              precision    recall  f1-score   support
+
+           0       0.85      0.68      0.75      5163
+           1       0.65      0.92      0.76      4541
+           2       0.81      0.69      0.75      5421
+
+    accuracy                           0.75     15125
+   macro avg       0.77      0.76      0.75     15125
+weighted avg       0.78      0.75      0.75     15125
+
+Epoch 13: train_loss=0.1987 val_loss=0.1890
+              precision    recall  f1-score   support
+
+           0       0.83      0.72      0.77      5163
+           1       0.65      0.92      0.76      4541
+           2       0.84      0.65      0.73      5421
+
+    accuracy                           0.75     15125
+   macro avg       0.77      0.76      0.75     15125
+weighted avg       0.78      0.75      0.75     15125
+
+Epoch 14: train_loss=0.1949 val_loss=0.1882
+              precision    recall  f1-score   support
+
+           0       0.84      0.71      0.77      5163
+           1       0.65      0.92      0.76      4541
+           2       0.83      0.66      0.74      5421
+
+    accuracy                           0.76     15125
+   macro avg       0.77      0.76      0.76     15125
+weighted avg       0.78      0.76      0.76     15125
+
+Epoch 15: train_loss=0.1924 val_loss=0.1855
+[Scenario Summary] trend_down | model=transformer
+              precision    recall  f1-score   support
+
+           0       0.82      0.74      0.78     28636
+           1       0.62      0.91      0.74     17828
+           2       0.82      0.67      0.74     29405
+
+    accuracy                           0.75     75869
+   macro avg       0.75      0.77      0.75     75869
+weighted avg       0.77      0.75      0.75     75869
+
+[Holdout Evaluation][scenario=trend_down] model=transformer
+              precision    recall  f1-score   support
+
+           0       0.72      0.65      0.68      7692
+           1       0.58      0.79      0.67      7946
+           2       0.75      0.55      0.63      7715
+
+    accuracy                           0.66     23353
+   macro avg       0.69      0.66      0.66     23353
+weighted avg       0.68      0.66      0.66     23353
+
+[Scenario Summary] trend_down | model=transformer | holdout
+              precision    recall  f1-score   support
+
+           0       0.72      0.65      0.68      7692
+           1       0.58      0.79      0.67      7946
+           2       0.75      0.55      0.63      7715
+
+    accuracy                           0.66     23353
+   macro avg       0.69      0.66      0.66     23353
+weighted avg       0.68      0.66      0.66     23353
+
+[Scenario trend_up] samples=75232 | positive=27150 | negative=28067
+=== Scenario: trend_up | Model: gru ===
+              precision    recall  f1-score   support
+
+           0       0.74      0.65      0.69      6867
+           1       0.50      0.79      0.61      4330
+           2       0.79      0.60      0.68      6297
+
+    accuracy                           0.66     17494
+   macro avg       0.68      0.68      0.66     17494
+weighted avg       0.70      0.66      0.67     17494
+
+Epoch 1: train_loss=0.3466 val_loss=0.3407
+              precision    recall  f1-score   support
+
+           0       0.77      0.56      0.65      6867
+           1       0.48      0.82      0.61      4330
+           2       0.74      0.61      0.67      6297
+
+    accuracy                           0.64     17494
+   macro avg       0.67      0.66      0.64     17494
+weighted avg       0.69      0.64      0.65     17494
+
+Epoch 2: train_loss=0.3059 val_loss=0.3508
+              precision    recall  f1-score   support
+
+           0       0.71      0.70      0.70      6867
+           1       0.53      0.77      0.62      4330
+           2       0.82      0.57      0.68      6297
+
+    accuracy                           0.67     17494
+   macro avg       0.68      0.68      0.67     17494
+weighted avg       0.70      0.67      0.67     17494
+
+Epoch 3: train_loss=0.2961 val_loss=0.3277
+              precision    recall  f1-score   support
+
+           0       0.74      0.63      0.68      6867
+           1       0.53      0.76      0.63      4330
+           2       0.76      0.66      0.71      6297
+
+    accuracy                           0.67     17494
+   macro avg       0.68      0.68      0.67     17494
+weighted avg       0.70      0.67      0.68     17494
+
+Epoch 4: train_loss=0.2787 val_loss=0.3517
+              precision    recall  f1-score   support
+
+           0       0.75      0.65      0.70      6867
+           1       0.55      0.73      0.63      4330
+           2       0.75      0.68      0.71      6297
+
+    accuracy                           0.68     17494
+   macro avg       0.68      0.69      0.68     17494
+weighted avg       0.70      0.68      0.68     17494
+
+Epoch 5: train_loss=0.2725 val_loss=0.3417
+              precision    recall  f1-score   support
+
+           0       0.78      0.57      0.66      6867
+           1       0.50      0.82      0.62      4330
+           2       0.74      0.63      0.68      6297
+
+    accuracy                           0.65     17494
+   macro avg       0.67      0.67      0.65     17494
+weighted avg       0.70      0.65      0.66     17494
+
+Epoch 6: train_loss=0.2581 val_loss=0.3488
+              precision    recall  f1-score   support
+
+           0       0.75      0.60      0.67      6867
+           1       0.54      0.73      0.62      4330
+           2       0.72      0.70      0.71      6297
+
+    accuracy                           0.67     17494
+   macro avg       0.67      0.68      0.67     17494
+weighted avg       0.69      0.67      0.67     17494
+
+Epoch 7: train_loss=0.2461 val_loss=0.3716
+              precision    recall  f1-score   support
+
+           0       0.74      0.62      0.67      6867
+           1       0.53      0.72      0.61      4330
+           2       0.74      0.69      0.71      6297
+
+    accuracy                           0.67     17494
+   macro avg       0.67      0.68      0.67     17494
+weighted avg       0.69      0.67      0.67     17494
+
+Epoch 8: train_loss=0.2390 val_loss=0.3888
+              precision    recall  f1-score   support
+
+           0       0.73      0.61      0.66      6867
+           1       0.53      0.71      0.61      4330
+           2       0.73      0.70      0.71      6297
+
+    accuracy                           0.66     17494
+   macro avg       0.66      0.67      0.66     17494
+weighted avg       0.68      0.66      0.67     17494
+
+Epoch 9: train_loss=0.2275 val_loss=0.4148
+Early stopping.
+[Scenario trend_up][Walk 1]
+              precision    recall  f1-score   support
+
+           0       0.73      0.61      0.66      6867
+           1       0.53      0.71      0.61      4330
+           2       0.73      0.70      0.71      6297
+
+    accuracy                           0.66     17494
+   macro avg       0.66      0.67      0.66     17494
+weighted avg       0.68      0.66      0.67     17494
+
+              precision    recall  f1-score   support
+
+           0       0.80      0.53      0.64      5875
+           1       0.53      0.89      0.67      5597
+           2       0.83      0.58      0.68      6022
+
+    accuracy                           0.66     17494
+   macro avg       0.72      0.67      0.66     17494
+weighted avg       0.72      0.66      0.66     17494
+
+Epoch 1: train_loss=0.3300 val_loss=0.3254
+              precision    recall  f1-score   support
+
+           0       0.79      0.56      0.66      5875
+           1       0.53      0.89      0.67      5597
+           2       0.84      0.56      0.67      6022
+
+    accuracy                           0.67     17494
+   macro avg       0.72      0.67      0.67     17494
+weighted avg       0.73      0.67      0.67     17494
+
+Epoch 2: train_loss=0.2981 val_loss=0.3230
+              precision    recall  f1-score   support
+
+           0       0.79      0.58      0.67      5875
+           1       0.55      0.89      0.68      5597
+           2       0.84      0.58      0.69      6022
+
+    accuracy                           0.68     17494
+   macro avg       0.73      0.68      0.68     17494
+weighted avg       0.73      0.68      0.68     17494
+
+Epoch 3: train_loss=0.2854 val_loss=0.3080
+              precision    recall  f1-score   support
+
+           0       0.80      0.54      0.65      5875
+           1       0.54      0.90      0.67      5597
+           2       0.84      0.59      0.69      6022
+
+    accuracy                           0.67     17494
+   macro avg       0.73      0.67      0.67     17494
+weighted avg       0.73      0.67      0.67     17494
+
+Epoch 4: train_loss=0.2729 val_loss=0.3150
+              precision    recall  f1-score   support
+
+           0       0.79      0.58      0.67      5875
+           1       0.56      0.87      0.68      5597
+           2       0.82      0.61      0.70      6022
+
+    accuracy                           0.68     17494
+   macro avg       0.72      0.69      0.68     17494
+weighted avg       0.73      0.68      0.68     17494
+
+Epoch 5: train_loss=0.2590 val_loss=0.3108
+              precision    recall  f1-score   support
+
+           0       0.77      0.60      0.67      5875
+           1       0.54      0.88      0.67      5597
+           2       0.85      0.55      0.67      6022
+
+    accuracy                           0.67     17494
+   macro avg       0.72      0.68      0.67     17494
+weighted avg       0.73      0.67      0.67     17494
+
+Epoch 6: train_loss=0.2508 val_loss=0.3202
+              precision    recall  f1-score   support
+
+           0       0.82      0.51      0.63      5875
+           1       0.53      0.90      0.66      5597
+           2       0.82      0.59      0.69      6022
+
+    accuracy                           0.66     17494
+   macro avg       0.72      0.66      0.66     17494
+weighted avg       0.73      0.66      0.66     17494
+
+Epoch 7: train_loss=0.2421 val_loss=0.3320
+              precision    recall  f1-score   support
+
+           0       0.77      0.56      0.65      5875
+           1       0.54      0.87      0.67      5597
+           2       0.84      0.58      0.69      6022
+
+    accuracy                           0.67     17494
+   macro avg       0.72      0.67      0.67     17494
+weighted avg       0.72      0.67      0.67     17494
+
+Epoch 8: train_loss=0.2300 val_loss=0.3286
+              precision    recall  f1-score   support
+
+           0       0.81      0.49      0.61      5875
+           1       0.53      0.89      0.66      5597
+           2       0.81      0.60      0.69      6022
+
+    accuracy                           0.66     17494
+   macro avg       0.71      0.66      0.66     17494
+weighted avg       0.72      0.66      0.66     17494
+
+Epoch 9: train_loss=0.2201 val_loss=0.3371
+Early stopping.
+[Scenario trend_up][Walk 2]
+              precision    recall  f1-score   support
+
+           0       0.81      0.49      0.61      5875
+           1       0.53      0.89      0.66      5597
+           2       0.81      0.60      0.69      6022
+
+    accuracy                           0.66     17494
+   macro avg       0.71      0.66      0.66     17494
+weighted avg       0.72      0.66      0.66     17494
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.56      0.65      5829
+           1       0.61      0.79      0.69      5859
+           2       0.73      0.72      0.72      5806
+
+    accuracy                           0.69     17494
+   macro avg       0.71      0.69      0.69     17494
+weighted avg       0.71      0.69      0.69     17494
+
+Epoch 1: train_loss=0.3185 val_loss=0.3149
+              precision    recall  f1-score   support
+
+           0       0.76      0.62      0.69      5829
+           1       0.60      0.85      0.70      5859
+           2       0.83      0.63      0.71      5806
+
+    accuracy                           0.70     17494
+   macro avg       0.73      0.70      0.70     17494
+weighted avg       0.73      0.70      0.70     17494
+
+Epoch 2: train_loss=0.2906 val_loss=0.3026
+              precision    recall  f1-score   support
+
+           0       0.80      0.53      0.64      5829
+           1       0.57      0.87      0.69      5859
+           2       0.81      0.65      0.72      5806
+
+    accuracy                           0.68     17494
+   macro avg       0.73      0.68      0.68     17494
+weighted avg       0.73      0.68      0.68     17494
+
+Epoch 3: train_loss=0.2768 val_loss=0.3100
+              precision    recall  f1-score   support
+
+           0       0.81      0.53      0.64      5829
+           1       0.57      0.88      0.69      5859
+           2       0.81      0.65      0.72      5806
+
+    accuracy                           0.69     17494
+   macro avg       0.73      0.69      0.69     17494
+weighted avg       0.73      0.69      0.69     17494
+
+Epoch 4: train_loss=0.2635 val_loss=0.3049
+              precision    recall  f1-score   support
+
+           0       0.79      0.59      0.67      5829
+           1       0.59      0.86      0.70      5859
+           2       0.82      0.65      0.72      5806
+
+    accuracy                           0.70     17494
+   macro avg       0.73      0.70      0.70     17494
+weighted avg       0.73      0.70      0.70     17494
+
+Epoch 5: train_loss=0.2609 val_loss=0.2953
+              precision    recall  f1-score   support
+
+           0       0.80      0.49      0.61      5829
+           1       0.57      0.86      0.69      5859
+           2       0.77      0.68      0.72      5806
+
+    accuracy                           0.68     17494
+   macro avg       0.72      0.68      0.67     17494
+weighted avg       0.71      0.68      0.67     17494
+
+Epoch 6: train_loss=0.2486 val_loss=0.3091
+              precision    recall  f1-score   support
+
+           0       0.80      0.51      0.62      5829
+           1       0.56      0.87      0.68      5859
+           2       0.79      0.64      0.71      5806
+
+    accuracy                           0.67     17494
+   macro avg       0.72      0.67      0.67     17494
+weighted avg       0.72      0.67      0.67     17494
+
+Epoch 7: train_loss=0.2431 val_loss=0.3154
+              precision    recall  f1-score   support
+
+           0       0.79      0.59      0.67      5829
+           1       0.59      0.85      0.70      5859
+           2       0.80      0.64      0.71      5806
+
+    accuracy                           0.69     17494
+   macro avg       0.72      0.69      0.69     17494
+weighted avg       0.72      0.69      0.69     17494
+
+Epoch 8: train_loss=0.2347 val_loss=0.3050
+              precision    recall  f1-score   support
+
+           0       0.77      0.53      0.63      5829
+           1       0.59      0.81      0.68      5859
+           2       0.75      0.70      0.72      5806
+
+    accuracy                           0.68     17494
+   macro avg       0.70      0.68      0.68     17494
+weighted avg       0.70      0.68      0.68     17494
+
+Epoch 9: train_loss=0.2267 val_loss=0.3286
+              precision    recall  f1-score   support
+
+           0       0.79      0.56      0.66      5829
+           1       0.58      0.84      0.69      5859
+           2       0.77      0.65      0.71      5806
+
+    accuracy                           0.69     17494
+   macro avg       0.72      0.69      0.68     17494
+weighted avg       0.72      0.69      0.68     17494
+
+Epoch 10: train_loss=0.2171 val_loss=0.3244
+              precision    recall  f1-score   support
+
+           0       0.78      0.58      0.66      5829
+           1       0.60      0.82      0.69      5859
+           2       0.76      0.69      0.72      5806
+
+    accuracy                           0.69     17494
+   macro avg       0.71      0.69      0.69     17494
+weighted avg       0.71      0.69      0.69     17494
+
+Epoch 11: train_loss=0.2086 val_loss=0.3247
+Early stopping.
+[Scenario trend_up][Walk 3]
+              precision    recall  f1-score   support
+
+           0       0.78      0.58      0.66      5829
+           1       0.60      0.82      0.69      5859
+           2       0.76      0.69      0.72      5806
+
+    accuracy                           0.69     17494
+   macro avg       0.71      0.69      0.69     17494
+weighted avg       0.71      0.69      0.69     17494
+
+              precision    recall  f1-score   support
+
+           0       0.74      0.61      0.67      5040
+           1       0.58      0.84      0.69      4949
+           2       0.82      0.61      0.70      4997
+
+    accuracy                           0.69     14986
+   macro avg       0.72      0.69      0.69     14986
+weighted avg       0.72      0.69      0.69     14986
+
+Epoch 1: train_loss=0.3152 val_loss=0.3030
+              precision    recall  f1-score   support
+
+           0       0.78      0.61      0.68      5040
+           1       0.62      0.84      0.71      4949
+           2       0.79      0.69      0.74      4997
+
+    accuracy                           0.71     14986
+   macro avg       0.73      0.71      0.71     14986
+weighted avg       0.73      0.71      0.71     14986
+
+Epoch 2: train_loss=0.2824 val_loss=0.2838
+              precision    recall  f1-score   support
+
+           0       0.77      0.63      0.69      5040
+           1       0.62      0.84      0.71      4949
+           2       0.81      0.67      0.73      4997
+
+    accuracy                           0.71     14986
+   macro avg       0.73      0.71      0.71     14986
+weighted avg       0.73      0.71      0.71     14986
+
+Epoch 3: train_loss=0.2741 val_loss=0.2758
+              precision    recall  f1-score   support
+
+           0       0.76      0.66      0.71      5040
+           1       0.61      0.86      0.72      4949
+           2       0.85      0.63      0.72      4997
+
+    accuracy                           0.71     14986
+   macro avg       0.74      0.72      0.71     14986
+weighted avg       0.74      0.71      0.71     14986
+
+Epoch 4: train_loss=0.2659 val_loss=0.2763
+              precision    recall  f1-score   support
+
+           0       0.80      0.61      0.69      5040
+           1       0.63      0.85      0.72      4949
+           2       0.80      0.71      0.75      4997
+
+    accuracy                           0.72     14986
+   macro avg       0.74      0.72      0.72     14986
+weighted avg       0.74      0.72      0.72     14986
+
+Epoch 5: train_loss=0.2556 val_loss=0.2642
+              precision    recall  f1-score   support
+
+           0       0.83      0.58      0.68      5040
+           1       0.61      0.90      0.72      4949
+           2       0.82      0.68      0.74      4997
+
+    accuracy                           0.72     14986
+   macro avg       0.75      0.72      0.72     14986
+weighted avg       0.75      0.72      0.72     14986
+
+Epoch 6: train_loss=0.2454 val_loss=0.2590
+              precision    recall  f1-score   support
+
+           0       0.82      0.63      0.71      5040
+           1       0.64      0.87      0.74      4949
+           2       0.82      0.72      0.76      4997
+
+    accuracy                           0.74     14986
+   macro avg       0.76      0.74      0.74     14986
+weighted avg       0.76      0.74      0.74     14986
+
+Epoch 7: train_loss=0.2390 val_loss=0.2390
+              precision    recall  f1-score   support
+
+           0       0.85      0.59      0.70      5040
+           1       0.62      0.90      0.74      4949
+           2       0.82      0.71      0.76      4997
+
+    accuracy                           0.73     14986
+   macro avg       0.76      0.73      0.73     14986
+weighted avg       0.76      0.73      0.73     14986
+
+Epoch 8: train_loss=0.2271 val_loss=0.2364
+              precision    recall  f1-score   support
+
+           0       0.82      0.67      0.74      5040
+           1       0.67      0.87      0.75      4949
+           2       0.82      0.73      0.77      4997
+
+    accuracy                           0.75     14986
+   macro avg       0.77      0.75      0.75     14986
+weighted avg       0.77      0.75      0.75     14986
+
+Epoch 9: train_loss=0.2163 val_loss=0.2205
+              precision    recall  f1-score   support
+
+           0       0.83      0.65      0.73      5040
+           1       0.67      0.88      0.76      4949
+           2       0.82      0.75      0.78      4997
+
+    accuracy                           0.76     14986
+   macro avg       0.77      0.76      0.76     14986
+weighted avg       0.77      0.76      0.76     14986
+
+Epoch 10: train_loss=0.2090 val_loss=0.2119
+              precision    recall  f1-score   support
+
+           0       0.84      0.67      0.74      5040
+           1       0.69      0.87      0.77      4949
+           2       0.82      0.77      0.79      4997
+
+    accuracy                           0.77     14986
+   macro avg       0.78      0.77      0.77     14986
+weighted avg       0.78      0.77      0.77     14986
+
+Epoch 11: train_loss=0.2015 val_loss=0.2077
+              precision    recall  f1-score   support
+
+           0       0.83      0.69      0.76      5040
+           1       0.68      0.89      0.77      4949
+           2       0.85      0.73      0.78      4997
+
+    accuracy                           0.77     14986
+   macro avg       0.79      0.77      0.77     14986
+weighted avg       0.79      0.77      0.77     14986
+
+Epoch 12: train_loss=0.1967 val_loss=0.2008
+              precision    recall  f1-score   support
+
+           0       0.84      0.68      0.75      5040
+           1       0.69      0.88      0.77      4949
+           2       0.83      0.76      0.80      4997
+
+    accuracy                           0.77     14986
+   macro avg       0.79      0.78      0.77     14986
+weighted avg       0.79      0.77      0.77     14986
+
+Epoch 13: train_loss=0.1927 val_loss=0.1953
+              precision    recall  f1-score   support
+
+           0       0.84      0.69      0.75      5040
+           1       0.69      0.89      0.78      4949
+           2       0.84      0.75      0.80      4997
+
+    accuracy                           0.78     14986
+   macro avg       0.79      0.78      0.78     14986
+weighted avg       0.79      0.78      0.78     14986
+
+Epoch 14: train_loss=0.1865 val_loss=0.1937
+              precision    recall  f1-score   support
+
+           0       0.84      0.68      0.75      5040
+           1       0.68      0.89      0.77      4949
+           2       0.84      0.75      0.79      4997
+
+    accuracy                           0.77     14986
+   macro avg       0.79      0.77      0.77     14986
+weighted avg       0.79      0.77      0.77     14986
+
+Epoch 15: train_loss=0.1875 val_loss=0.1937
+[Scenario Summary] trend_up | model=gru
+              precision    recall  f1-score   support
+
+           0       0.83      0.72      0.77     28036
+           1       0.66      0.88      0.75     20015
+           2       0.84      0.75      0.79     27121
+
+    accuracy                           0.77     75172
+   macro avg       0.78      0.78      0.77     75172
+weighted avg       0.79      0.77      0.77     75172
+
+[Holdout Evaluation][scenario=trend_up] model=gru
+              precision    recall  f1-score   support
+
+           0       0.69      0.65      0.67      7278
+           1       0.63      0.72      0.67      8117
+           2       0.74      0.68      0.71      7206
+
+    accuracy                           0.68     22601
+   macro avg       0.69      0.68      0.69     22601
+weighted avg       0.69      0.68      0.69     22601
+
+[Scenario Summary] trend_up | model=gru | holdout
+              precision    recall  f1-score   support
+
+           0       0.69      0.65      0.67      7278
+           1       0.63      0.72      0.67      8117
+           2       0.74      0.68      0.71      7206
+
+    accuracy                           0.68     22601
+   macro avg       0.69      0.68      0.69     22601
+weighted avg       0.69      0.68      0.69     22601
+
+=== Scenario: trend_up | Model: transformer ===
+              precision    recall  f1-score   support
+
+           0       0.75      0.58      0.65      6867
+           1       0.49      0.84      0.62      4330
+           2       0.77      0.57      0.66      6297
+
+    accuracy                           0.64     17494
+   macro avg       0.67      0.66      0.64     17494
+weighted avg       0.69      0.64      0.64     17494
+
+Epoch 1: train_loss=0.3718 val_loss=0.3672
+              precision    recall  f1-score   support
+
+           0       0.79      0.50      0.61      6867
+           1       0.49      0.84      0.62      4330
+           2       0.70      0.64      0.67      6297
+
+    accuracy                           0.63     17494
+   macro avg       0.66      0.66      0.63     17494
+weighted avg       0.68      0.63      0.64     17494
+
+Epoch 2: train_loss=0.3127 val_loss=0.3581
+              precision    recall  f1-score   support
+
+           0       0.71      0.59      0.64      6867
+           1       0.46      0.84      0.60      4330
+           2       0.80      0.51      0.63      6297
+
+    accuracy                           0.62     17494
+   macro avg       0.66      0.65      0.62     17494
+weighted avg       0.68      0.62      0.63     17494
+
+Epoch 3: train_loss=0.3053 val_loss=0.3952
+              precision    recall  f1-score   support
+
+           0       0.66      0.66      0.66      6867
+           1       0.52      0.76      0.62      4330
+           2       0.78      0.53      0.63      6297
+
+    accuracy                           0.64     17494
+   macro avg       0.65      0.65      0.64     17494
+weighted avg       0.67      0.64      0.64     17494
+
+Epoch 4: train_loss=0.2830 val_loss=0.4192
+              precision    recall  f1-score   support
+
+           0       0.69      0.60      0.64      6867
+           1       0.48      0.80      0.60      4330
+           2       0.76      0.52      0.62      6297
+
+    accuracy                           0.62     17494
+   macro avg       0.64      0.64      0.62     17494
+weighted avg       0.66      0.62      0.62     17494
+
+Epoch 5: train_loss=0.2723 val_loss=0.4464
+              precision    recall  f1-score   support
+
+           0       0.73      0.54      0.62      6867
+           1       0.46      0.82      0.59      4330
+           2       0.72      0.54      0.62      6297
+
+    accuracy                           0.61     17494
+   macro avg       0.64      0.63      0.61     17494
+weighted avg       0.66      0.61      0.61     17494
+
+Epoch 6: train_loss=0.2549 val_loss=0.4581
+              precision    recall  f1-score   support
+
+           0       0.69      0.59      0.64      6867
+           1       0.51      0.74      0.60      4330
+           2       0.72      0.61      0.66      6297
+
+    accuracy                           0.63     17494
+   macro avg       0.64      0.65      0.63     17494
+weighted avg       0.66      0.63      0.64     17494
+
+Epoch 7: train_loss=0.2423 val_loss=0.4858
+              precision    recall  f1-score   support
+
+           0       0.69      0.58      0.63      6867
+           1       0.52      0.70      0.60      4330
+           2       0.69      0.63      0.66      6297
+
+    accuracy                           0.63     17494
+   macro avg       0.63      0.64      0.63     17494
+weighted avg       0.65      0.63      0.63     17494
+
+Epoch 8: train_loss=0.2259 val_loss=0.5594
+Early stopping.
+[Scenario trend_up][Walk 1]
+              precision    recall  f1-score   support
+
+           0       0.69      0.58      0.63      6867
+           1       0.52      0.70      0.60      4330
+           2       0.69      0.63      0.66      6297
+
+    accuracy                           0.63     17494
+   macro avg       0.63      0.64      0.63     17494
+weighted avg       0.65      0.63      0.63     17494
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.55      0.65      5875
+           1       0.53      0.91      0.67      5597
+           2       0.85      0.54      0.66      6022
+
+    accuracy                           0.66     17494
+   macro avg       0.72      0.67      0.66     17494
+weighted avg       0.73      0.66      0.66     17494
+
+Epoch 1: train_loss=0.3477 val_loss=0.3461
+              precision    recall  f1-score   support
+
+           0       0.83      0.46      0.59      5875
+           1       0.51      0.91      0.66      5597
+           2       0.80      0.57      0.67      6022
+
+    accuracy                           0.64     17494
+   macro avg       0.71      0.65      0.64     17494
+weighted avg       0.72      0.64      0.64     17494
+
+Epoch 2: train_loss=0.3141 val_loss=0.3453
+              precision    recall  f1-score   support
+
+           0       0.83      0.48      0.61      5875
+           1       0.53      0.88      0.67      5597
+           2       0.76      0.61      0.68      6022
+
+    accuracy                           0.65     17494
+   macro avg       0.71      0.66      0.65     17494
+weighted avg       0.71      0.65      0.65     17494
+
+Epoch 3: train_loss=0.3022 val_loss=0.3406
+              precision    recall  f1-score   support
+
+           0       0.80      0.50      0.62      5875
+           1       0.50      0.92      0.65      5597
+           2       0.85      0.50      0.63      6022
+
+    accuracy                           0.64     17494
+   macro avg       0.72      0.64      0.63     17494
+weighted avg       0.72      0.64      0.63     17494
+
+Epoch 4: train_loss=0.2962 val_loss=0.3495
+              precision    recall  f1-score   support
+
+           0       0.82      0.43      0.57      5875
+           1       0.50      0.92      0.65      5597
+           2       0.81      0.57      0.67      6022
+
+    accuracy                           0.63     17494
+   macro avg       0.71      0.64      0.63     17494
+weighted avg       0.72      0.63      0.63     17494
+
+Epoch 5: train_loss=0.2813 val_loss=0.3551
+              precision    recall  f1-score   support
+
+           0       0.74      0.58      0.65      5875
+           1       0.55      0.85      0.66      5597
+           2       0.78      0.55      0.65      6022
+
+    accuracy                           0.66     17494
+   macro avg       0.69      0.66      0.65     17494
+weighted avg       0.69      0.66      0.65     17494
+
+Epoch 6: train_loss=0.2696 val_loss=0.3595
+              precision    recall  f1-score   support
+
+           0       0.69      0.54      0.61      5875
+           1       0.53      0.86      0.65      5597
+           2       0.83      0.52      0.64      6022
+
+    accuracy                           0.64     17494
+   macro avg       0.69      0.64      0.64     17494
+weighted avg       0.69      0.64      0.64     17494
+
+Epoch 7: train_loss=0.2578 val_loss=0.3848
+              precision    recall  f1-score   support
+
+           0       0.74      0.56      0.64      5875
+           1       0.54      0.85      0.66      5597
+           2       0.78      0.54      0.64      6022
+
+    accuracy                           0.65     17494
+   macro avg       0.69      0.65      0.64     17494
+weighted avg       0.69      0.65      0.64     17494
+
+Epoch 8: train_loss=0.2411 val_loss=0.3921
+              precision    recall  f1-score   support
+
+           0       0.70      0.59      0.64      5875
+           1       0.55      0.82      0.66      5597
+           2       0.79      0.54      0.64      6022
+
+    accuracy                           0.65     17494
+   macro avg       0.68      0.65      0.65     17494
+weighted avg       0.68      0.65      0.65     17494
+
+Epoch 9: train_loss=0.2286 val_loss=0.3992
+Early stopping.
+[Scenario trend_up][Walk 2]
+              precision    recall  f1-score   support
+
+           0       0.70      0.59      0.64      5875
+           1       0.55      0.82      0.66      5597
+           2       0.79      0.54      0.64      6022
+
+    accuracy                           0.65     17494
+   macro avg       0.68      0.65      0.65     17494
+weighted avg       0.68      0.65      0.65     17494
+
+              precision    recall  f1-score   support
+
+           0       0.71      0.59      0.65      5829
+           1       0.59      0.84      0.69      5859
+           2       0.79      0.60      0.68      5806
+
+    accuracy                           0.67     17494
+   macro avg       0.70      0.67      0.67     17494
+weighted avg       0.70      0.67      0.67     17494
+
+Epoch 1: train_loss=0.3407 val_loss=0.3331
+              precision    recall  f1-score   support
+
+           0       0.82      0.51      0.63      5829
+           1       0.54      0.90      0.68      5859
+           2       0.82      0.58      0.68      5806
+
+    accuracy                           0.67     17494
+   macro avg       0.73      0.66      0.66     17494
+weighted avg       0.73      0.67      0.66     17494
+
+Epoch 2: train_loss=0.3104 val_loss=0.3402
+              precision    recall  f1-score   support
+
+           0       0.83      0.50      0.62      5829
+           1       0.55      0.89      0.68      5859
+           2       0.77      0.61      0.68      5806
+
+    accuracy                           0.67     17494
+   macro avg       0.72      0.67      0.66     17494
+weighted avg       0.72      0.67      0.66     17494
+
+Epoch 3: train_loss=0.3019 val_loss=0.3462
+              precision    recall  f1-score   support
+
+           0       0.82      0.51      0.63      5829
+           1       0.59      0.84      0.69      5859
+           2       0.71      0.67      0.69      5806
+
+    accuracy                           0.67     17494
+   macro avg       0.71      0.67      0.67     17494
+weighted avg       0.70      0.67      0.67     17494
+
+Epoch 4: train_loss=0.2953 val_loss=0.3387
+              precision    recall  f1-score   support
+
+           0       0.75      0.55      0.64      5829
+           1       0.57      0.85      0.68      5859
+           2       0.76      0.60      0.67      5806
+
+    accuracy                           0.67     17494
+   macro avg       0.70      0.67      0.66     17494
+weighted avg       0.70      0.67      0.66     17494
+
+Epoch 5: train_loss=0.2862 val_loss=0.3440
+              precision    recall  f1-score   support
+
+           0       0.77      0.55      0.64      5829
+           1       0.59      0.80      0.68      5859
+           2       0.70      0.65      0.68      5806
+
+    accuracy                           0.67     17494
+   macro avg       0.69      0.67      0.66     17494
+weighted avg       0.69      0.67      0.66     17494
+
+Epoch 6: train_loss=0.2758 val_loss=0.3527
+              precision    recall  f1-score   support
+
+           0       0.68      0.62      0.65      5829
+           1       0.60      0.78      0.68      5859
+           2       0.75      0.60      0.67      5806
+
+    accuracy                           0.67     17494
+   macro avg       0.68      0.67      0.67     17494
+weighted avg       0.68      0.67      0.67     17494
+
+Epoch 7: train_loss=0.2667 val_loss=0.3790
+              precision    recall  f1-score   support
+
+           0       0.75      0.51      0.61      5829
+           1       0.55      0.85      0.67      5859
+           2       0.76      0.59      0.66      5806
+
+    accuracy                           0.65     17494
+   macro avg       0.69      0.65      0.65     17494
+weighted avg       0.69      0.65      0.65     17494
+
+Epoch 8: train_loss=0.2547 val_loss=0.3759
+Early stopping.
+[Scenario trend_up][Walk 3]
+              precision    recall  f1-score   support
+
+           0       0.75      0.51      0.61      5829
+           1       0.55      0.85      0.67      5859
+           2       0.76      0.59      0.66      5806
+
+    accuracy                           0.65     17494
+   macro avg       0.69      0.65      0.65     17494
+weighted avg       0.69      0.65      0.65     17494
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.53      0.64      5040
+           1       0.59      0.84      0.69      4949
+           2       0.73      0.66      0.70      4997
+
+    accuracy                           0.68     14986
+   macro avg       0.70      0.68      0.68     14986
+weighted avg       0.71      0.68      0.68     14986
+
+Epoch 1: train_loss=0.3253 val_loss=0.3299
+              precision    recall  f1-score   support
+
+           0       0.76      0.57      0.66      5040
+           1       0.57      0.88      0.69      4949
+           2       0.83      0.59      0.69      4997
+
+    accuracy                           0.68     14986
+   macro avg       0.72      0.68      0.68     14986
+weighted avg       0.72      0.68      0.68     14986
+
+Epoch 2: train_loss=0.3081 val_loss=0.3157
+              precision    recall  f1-score   support
+
+           0       0.79      0.55      0.65      5040
+           1       0.57      0.89      0.70      4949
+           2       0.81      0.61      0.70      4997
+
+    accuracy                           0.68     14986
+   macro avg       0.73      0.68      0.68     14986
+weighted avg       0.73      0.68      0.68     14986
+
+Epoch 3: train_loss=0.3012 val_loss=0.3078
+              precision    recall  f1-score   support
+
+           0       0.79      0.54      0.64      5040
+           1       0.58      0.89      0.70      4949
+           2       0.80      0.64      0.71      4997
+
+    accuracy                           0.69     14986
+   macro avg       0.72      0.69      0.69     14986
+weighted avg       0.72      0.69      0.69     14986
+
+Epoch 4: train_loss=0.2919 val_loss=0.3058
+              precision    recall  f1-score   support
+
+           0       0.79      0.56      0.66      5040
+           1       0.60      0.88      0.71      4949
+           2       0.79      0.65      0.72      4997
+
+    accuracy                           0.70     14986
+   macro avg       0.73      0.70      0.70     14986
+weighted avg       0.73      0.70      0.69     14986
+
+Epoch 5: train_loss=0.2855 val_loss=0.2974
+              precision    recall  f1-score   support
+
+           0       0.76      0.61      0.68      5040
+           1       0.62      0.87      0.72      4949
+           2       0.80      0.64      0.71      4997
+
+    accuracy                           0.71     14986
+   macro avg       0.73      0.71      0.70     14986
+weighted avg       0.73      0.71      0.70     14986
+
+Epoch 6: train_loss=0.2776 val_loss=0.2798
+              precision    recall  f1-score   support
+
+           0       0.76      0.63      0.69      5040
+           1       0.62      0.87      0.73      4949
+           2       0.82      0.64      0.72      4997
+
+    accuracy                           0.71     14986
+   macro avg       0.74      0.71      0.71     14986
+weighted avg       0.74      0.71      0.71     14986
+
+Epoch 7: train_loss=0.2681 val_loss=0.2674
+              precision    recall  f1-score   support
+
+           0       0.78      0.63      0.70      5040
+           1       0.63      0.88      0.74      4949
+           2       0.81      0.66      0.73      4997
+
+    accuracy                           0.72     14986
+   macro avg       0.74      0.72      0.72     14986
+weighted avg       0.74      0.72      0.72     14986
+
+Epoch 8: train_loss=0.2575 val_loss=0.2553
+              precision    recall  f1-score   support
+
+           0       0.81      0.60      0.69      5040
+           1       0.64      0.89      0.74      4949
+           2       0.80      0.70      0.75      4997
+
+    accuracy                           0.73     14986
+   macro avg       0.75      0.73      0.73     14986
+weighted avg       0.75      0.73      0.73     14986
+
+Epoch 9: train_loss=0.2488 val_loss=0.2454
+              precision    recall  f1-score   support
+
+           0       0.82      0.62      0.71      5040
+           1       0.65      0.90      0.75      4949
+           2       0.81      0.70      0.75      4997
+
+    accuracy                           0.74     14986
+   macro avg       0.76      0.74      0.74     14986
+weighted avg       0.76      0.74      0.74     14986
+
+Epoch 10: train_loss=0.2350 val_loss=0.2297
+              precision    recall  f1-score   support
+
+           0       0.82      0.62      0.71      5040
+           1       0.67      0.89      0.76      4949
+           2       0.81      0.74      0.77      4997
+
+    accuracy                           0.75     14986
+   macro avg       0.77      0.75      0.75     14986
+weighted avg       0.77      0.75      0.75     14986
+
+Epoch 11: train_loss=0.2229 val_loss=0.2164
+              precision    recall  f1-score   support
+
+           0       0.81      0.65      0.72      5040
+           1       0.66      0.91      0.76      4949
+           2       0.85      0.69      0.76      4997
+
+    accuracy                           0.75     14986
+   macro avg       0.77      0.75      0.75     14986
+weighted avg       0.77      0.75      0.75     14986
+
+Epoch 12: train_loss=0.2134 val_loss=0.2075
+              precision    recall  f1-score   support
+
+           0       0.81      0.68      0.74      5040
+           1       0.69      0.90      0.78      4949
+           2       0.84      0.72      0.78      4997
+
+    accuracy                           0.77     14986
+   macro avg       0.78      0.77      0.77     14986
+weighted avg       0.78      0.77      0.77     14986
+
+Epoch 13: train_loss=0.2038 val_loss=0.1942
+              precision    recall  f1-score   support
+
+           0       0.82      0.68      0.74      5040
+           1       0.69      0.90      0.78      4949
+           2       0.84      0.73      0.78      4997
+
+    accuracy                           0.77     14986
+   macro avg       0.78      0.77      0.77     14986
+weighted avg       0.78      0.77      0.77     14986
+
+Epoch 14: train_loss=0.2036 val_loss=0.1905
+              precision    recall  f1-score   support
+
+           0       0.82      0.67      0.74      5040
+           1       0.69      0.91      0.78      4949
+           2       0.84      0.73      0.78      4997
+
+    accuracy                           0.77     14986
+   macro avg       0.78      0.77      0.77     14986
+weighted avg       0.78      0.77      0.77     14986
+
+Epoch 15: train_loss=0.1978 val_loss=0.1904
+[Scenario Summary] trend_up | model=transformer
+              precision    recall  f1-score   support
+
+           0       0.81      0.70      0.75     28036
+           1       0.66      0.89      0.76     20015
+           2       0.82      0.73      0.77     27121
+
+    accuracy                           0.76     75172
+   macro avg       0.76      0.77      0.76     75172
+weighted avg       0.77      0.76      0.76     75172
+
+[Holdout Evaluation][scenario=trend_up] model=transformer
+              precision    recall  f1-score   support
+
+           0       0.65      0.60      0.63      7278
+           1       0.60      0.70      0.64      8117
+           2       0.70      0.62      0.66      7206
+
+    accuracy                           0.64     22601
+   macro avg       0.65      0.64      0.64     22601
+weighted avg       0.65      0.64      0.64     22601
+
+[Scenario Summary] trend_up | model=transformer | holdout
+              precision    recall  f1-score   support
+
+           0       0.65      0.60      0.63      7278
+           1       0.60      0.70      0.64      8117
+           2       0.70      0.62      0.66      7206
+
+    accuracy                           0.64     22601
+   macro avg       0.65      0.64      0.64     22601
+weighted avg       0.65      0.64      0.64     22601
+
+[Scenario global] samples=379620 | positive=116512 | negative=117179
+=== Scenario: global | Model: gru ===
+              precision    recall  f1-score   support
+
+           0       0.82      0.67      0.74     27620
+           1       0.68      0.84      0.76     34098
+           2       0.78      0.69      0.73     26800
+
+    accuracy                           0.74     88518
+   macro avg       0.76      0.73      0.74     88518
+weighted avg       0.75      0.74      0.74     88518
+
+Epoch 1: train_loss=0.2555 val_loss=0.2530
+              precision    recall  f1-score   support
+
+           0       0.80      0.71      0.75     27620
+           1       0.69      0.86      0.76     34098
+           2       0.82      0.66      0.73     26800
+
+    accuracy                           0.75     88518
+   macro avg       0.77      0.74      0.75     88518
+weighted avg       0.76      0.75      0.75     88518
+
+Epoch 2: train_loss=0.2282 val_loss=0.2426
+              precision    recall  f1-score   support
+
+           0       0.81      0.69      0.75     27620
+           1       0.69      0.84      0.76     34098
+           2       0.79      0.69      0.74     26800
+
+    accuracy                           0.75     88518
+   macro avg       0.77      0.74      0.75     88518
+weighted avg       0.76      0.75      0.75     88518
+
+Epoch 3: train_loss=0.2167 val_loss=0.2416
+              precision    recall  f1-score   support
+
+           0       0.80      0.72      0.76     27620
+           1       0.69      0.86      0.77     34098
+           2       0.82      0.65      0.73     26800
+
+    accuracy                           0.75     88518
+   macro avg       0.77      0.74      0.75     88518
+weighted avg       0.76      0.75      0.75     88518
+
+Epoch 4: train_loss=0.2112 val_loss=0.2475
+              precision    recall  f1-score   support
+
+           0       0.84      0.68      0.75     27620
+           1       0.69      0.85      0.76     34098
+           2       0.79      0.71      0.75     26800
+
+    accuracy                           0.75     88518
+   macro avg       0.77      0.75      0.75     88518
+weighted avg       0.77      0.75      0.75     88518
+
+Epoch 5: train_loss=0.2017 val_loss=0.2356
+              precision    recall  f1-score   support
+
+           0       0.80      0.72      0.76     27620
+           1       0.71      0.80      0.75     34098
+           2       0.76      0.71      0.74     26800
+
+    accuracy                           0.75     88518
+   macro avg       0.76      0.74      0.75     88518
+weighted avg       0.75      0.75      0.75     88518
+
+Epoch 6: train_loss=0.1929 val_loss=0.2465
+              precision    recall  f1-score   support
+
+           0       0.81      0.70      0.75     27620
+           1       0.69      0.84      0.76     34098
+           2       0.79      0.69      0.74     26800
+
+    accuracy                           0.75     88518
+   macro avg       0.77      0.74      0.75     88518
+weighted avg       0.76      0.75      0.75     88518
+
+Epoch 7: train_loss=0.1828 val_loss=0.2514
+              precision    recall  f1-score   support
+
+           0       0.80      0.70      0.75     27620
+           1       0.70      0.80      0.75     34098
+           2       0.76      0.72      0.74     26800
+
+    accuracy                           0.75     88518
+   macro avg       0.75      0.74      0.75     88518
+weighted avg       0.75      0.75      0.75     88518
+
+Epoch 8: train_loss=0.1738 val_loss=0.2603
+              precision    recall  f1-score   support
+
+           0       0.79      0.72      0.75     27620
+           1       0.69      0.83      0.75     34098
+           2       0.79      0.67      0.73     26800
+
+    accuracy                           0.75     88518
+   macro avg       0.76      0.74      0.74     88518
+weighted avg       0.75      0.75      0.75     88518
+
+Epoch 9: train_loss=0.1674 val_loss=0.2626
+              precision    recall  f1-score   support
+
+           0       0.78      0.71      0.75     27620
+           1       0.69      0.81      0.75     34098
+           2       0.78      0.68      0.72     26800
+
+    accuracy                           0.74     88518
+   macro avg       0.75      0.73      0.74     88518
+weighted avg       0.75      0.74      0.74     88518
+
+Epoch 10: train_loss=0.1593 val_loss=0.2770
+              precision    recall  f1-score   support
+
+           0       0.81      0.66      0.73     27620
+           1       0.68      0.83      0.75     34098
+           2       0.76      0.69      0.73     26800
+
+    accuracy                           0.74     88518
+   macro avg       0.75      0.73      0.74     88518
+weighted avg       0.75      0.74      0.74     88518
+
+Epoch 11: train_loss=0.1535 val_loss=0.2831
+Early stopping.
+[Scenario global][Walk 1]
+              precision    recall  f1-score   support
+
+           0       0.81      0.66      0.73     27620
+           1       0.68      0.83      0.75     34098
+           2       0.76      0.69      0.73     26800
+
+    accuracy                           0.74     88518
+   macro avg       0.75      0.73      0.74     88518
+weighted avg       0.75      0.74      0.74     88518
+
+              precision    recall  f1-score   support
+
+           0       0.81      0.68      0.74     25537
+           1       0.73      0.81      0.77     36850
+           2       0.75      0.76      0.76     26131
+
+    accuracy                           0.76     88518
+   macro avg       0.77      0.75      0.76     88518
+weighted avg       0.76      0.76      0.76     88518
+
+Epoch 1: train_loss=0.2462 val_loss=0.2412
+              precision    recall  f1-score   support
+
+           0       0.79      0.73      0.76     25537
+           1       0.75      0.83      0.79     36850
+           2       0.79      0.73      0.76     26131
+
+    accuracy                           0.77     88518
+   macro avg       0.78      0.76      0.77     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 2: train_loss=0.2215 val_loss=0.2220
+              precision    recall  f1-score   support
+
+           0       0.81      0.71      0.76     25537
+           1       0.73      0.87      0.79     36850
+           2       0.82      0.70      0.76     26131
+
+    accuracy                           0.77     88518
+   macro avg       0.79      0.76      0.77     88518
+weighted avg       0.78      0.77      0.77     88518
+
+Epoch 3: train_loss=0.2117 val_loss=0.2215
+              precision    recall  f1-score   support
+
+           0       0.80      0.72      0.76     25537
+           1       0.76      0.80      0.78     36850
+           2       0.75      0.77      0.76     26131
+
+    accuracy                           0.77     88518
+   macro avg       0.77      0.76      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 4: train_loss=0.2019 val_loss=0.2282
+              precision    recall  f1-score   support
+
+           0       0.77      0.75      0.76     25537
+           1       0.75      0.83      0.79     36850
+           2       0.81      0.71      0.75     26131
+
+    accuracy                           0.77     88518
+   macro avg       0.78      0.76      0.77     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 5: train_loss=0.1932 val_loss=0.2273
+              precision    recall  f1-score   support
+
+           0       0.81      0.70      0.75     25537
+           1       0.73      0.86      0.79     36850
+           2       0.80      0.72      0.76     26131
+
+    accuracy                           0.77     88518
+   macro avg       0.78      0.76      0.77     88518
+weighted avg       0.78      0.77      0.77     88518
+
+Epoch 6: train_loss=0.1830 val_loss=0.2311
+              precision    recall  f1-score   support
+
+           0       0.79      0.71      0.75     25537
+           1       0.75      0.81      0.78     36850
+           2       0.77      0.74      0.76     26131
+
+    accuracy                           0.76     88518
+   macro avg       0.77      0.76      0.76     88518
+weighted avg       0.77      0.76      0.76     88518
+
+Epoch 7: train_loss=0.1735 val_loss=0.2435
+              precision    recall  f1-score   support
+
+           0       0.76      0.74      0.75     25537
+           1       0.75      0.79      0.77     36850
+           2       0.77      0.73      0.75     26131
+
+    accuracy                           0.76     88518
+   macro avg       0.76      0.75      0.76     88518
+weighted avg       0.76      0.76      0.76     88518
+
+Epoch 8: train_loss=0.1641 val_loss=0.2480
+              precision    recall  f1-score   support
+
+           0       0.78      0.72      0.75     25537
+           1       0.74      0.81      0.78     36850
+           2       0.77      0.73      0.75     26131
+
+    accuracy                           0.76     88518
+   macro avg       0.76      0.75      0.76     88518
+weighted avg       0.76      0.76      0.76     88518
+
+Epoch 9: train_loss=0.1558 val_loss=0.2590
+Early stopping.
+[Scenario global][Walk 2]
+              precision    recall  f1-score   support
+
+           0       0.78      0.72      0.75     25537
+           1       0.74      0.81      0.78     36850
+           2       0.77      0.73      0.75     26131
+
+    accuracy                           0.76     88518
+   macro avg       0.76      0.75      0.76     88518
+weighted avg       0.76      0.76      0.76     88518
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.71      0.75     22567
+           1       0.78      0.89      0.83     42982
+           2       0.82      0.68      0.74     22969
+
+    accuracy                           0.79     88518
+   macro avg       0.79      0.76      0.77     88518
+weighted avg       0.79      0.79      0.78     88518
+
+Epoch 1: train_loss=0.2409 val_loss=0.2134
+              precision    recall  f1-score   support
+
+           0       0.77      0.73      0.75     22567
+           1       0.79      0.87      0.83     42982
+           2       0.81      0.71      0.76     22969
+
+    accuracy                           0.79     88518
+   macro avg       0.79      0.77      0.78     88518
+weighted avg       0.79      0.79      0.79     88518
+
+Epoch 2: train_loss=0.2171 val_loss=0.2058
+              precision    recall  f1-score   support
+
+           0       0.80      0.71      0.75     22567
+           1       0.78      0.89      0.83     42982
+           2       0.81      0.70      0.75     22969
+
+    accuracy                           0.79     88518
+   macro avg       0.80      0.76      0.78     88518
+weighted avg       0.79      0.79      0.79     88518
+
+Epoch 3: train_loss=0.2067 val_loss=0.2048
+              precision    recall  f1-score   support
+
+           0       0.78      0.74      0.76     22567
+           1       0.81      0.85      0.83     42982
+           2       0.78      0.75      0.76     22969
+
+    accuracy                           0.80     88518
+   macro avg       0.79      0.78      0.78     88518
+weighted avg       0.79      0.80      0.79     88518
+
+Epoch 4: train_loss=0.1976 val_loss=0.2036
+              precision    recall  f1-score   support
+
+           0       0.75      0.76      0.76     22567
+           1       0.81      0.84      0.83     42982
+           2       0.78      0.74      0.76     22969
+
+    accuracy                           0.79     88518
+   macro avg       0.78      0.78      0.78     88518
+weighted avg       0.79      0.79      0.79     88518
+
+Epoch 5: train_loss=0.1901 val_loss=0.2070
+              precision    recall  f1-score   support
+
+           0       0.75      0.75      0.75     22567
+           1       0.81      0.83      0.82     42982
+           2       0.77      0.75      0.76     22969
+
+    accuracy                           0.79     88518
+   macro avg       0.78      0.77      0.78     88518
+weighted avg       0.79      0.79      0.79     88518
+
+Epoch 6: train_loss=0.1816 val_loss=0.2086
+              precision    recall  f1-score   support
+
+           0       0.78      0.72      0.75     22567
+           1       0.80      0.86      0.83     42982
+           2       0.78      0.73      0.75     22969
+
+    accuracy                           0.79     88518
+   macro avg       0.79      0.77      0.78     88518
+weighted avg       0.79      0.79      0.79     88518
+
+Epoch 7: train_loss=0.1722 val_loss=0.2155
+              precision    recall  f1-score   support
+
+           0       0.78      0.70      0.74     22567
+           1       0.80      0.84      0.82     42982
+           2       0.75      0.75      0.75     22969
+
+    accuracy                           0.78     88518
+   macro avg       0.77      0.76      0.77     88518
+weighted avg       0.78      0.78      0.78     88518
+
+Epoch 8: train_loss=0.1627 val_loss=0.2190
+              precision    recall  f1-score   support
+
+           0       0.72      0.75      0.73     22567
+           1       0.82      0.78      0.80     42982
+           2       0.72      0.75      0.74     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.75      0.76      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 9: train_loss=0.1535 val_loss=0.2343
+              precision    recall  f1-score   support
+
+           0       0.76      0.72      0.74     22567
+           1       0.81      0.81      0.81     42982
+           2       0.73      0.76      0.74     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.76      0.76      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 10: train_loss=0.1454 val_loss=0.2380
+Early stopping.
+[Scenario global][Walk 3]
+              precision    recall  f1-score   support
+
+           0       0.76      0.72      0.74     22567
+           1       0.81      0.81      0.81     42982
+           2       0.73      0.76      0.74     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.76      0.76      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+              precision    recall  f1-score   support
+
+           0       0.76      0.73      0.75     19781
+           1       0.82      0.81      0.82     35939
+           2       0.73      0.79      0.76     20144
+
+    accuracy                           0.78     75864
+   macro avg       0.77      0.78      0.77     75864
+weighted avg       0.78      0.78      0.78     75864
+
+Epoch 1: train_loss=0.2355 val_loss=0.2109
+              precision    recall  f1-score   support
+
+           0       0.73      0.79      0.76     19781
+           1       0.83      0.82      0.82     35939
+           2       0.80      0.75      0.77     20144
+
+    accuracy                           0.79     75864
+   macro avg       0.78      0.78      0.78     75864
+weighted avg       0.79      0.79      0.79     75864
+
+Epoch 2: train_loss=0.2145 val_loss=0.2026
+              precision    recall  f1-score   support
+
+           0       0.77      0.77      0.77     19781
+           1       0.83      0.83      0.83     35939
+           2       0.78      0.77      0.78     20144
+
+    accuracy                           0.80     75864
+   macro avg       0.79      0.79      0.79     75864
+weighted avg       0.80      0.80      0.80     75864
+
+Epoch 3: train_loss=0.2044 val_loss=0.1890
+              precision    recall  f1-score   support
+
+           0       0.74      0.80      0.77     19781
+           1       0.84      0.82      0.83     35939
+           2       0.79      0.77      0.78     20144
+
+    accuracy                           0.80     75864
+   macro avg       0.79      0.80      0.79     75864
+weighted avg       0.80      0.80      0.80     75864
+
+Epoch 4: train_loss=0.1962 val_loss=0.1832
+              precision    recall  f1-score   support
+
+           0       0.78      0.78      0.78     19781
+           1       0.83      0.85      0.84     35939
+           2       0.81      0.77      0.79     20144
+
+    accuracy                           0.81     75864
+   macro avg       0.81      0.80      0.80     75864
+weighted avg       0.81      0.81      0.81     75864
+
+Epoch 5: train_loss=0.1878 val_loss=0.1715
+              precision    recall  f1-score   support
+
+           0       0.79      0.78      0.79     19781
+           1       0.84      0.83      0.84     35939
+           2       0.79      0.80      0.80     20144
+
+    accuracy                           0.81     75864
+   macro avg       0.80      0.81      0.81     75864
+weighted avg       0.81      0.81      0.81     75864
+
+Epoch 6: train_loss=0.1782 val_loss=0.1627
+              precision    recall  f1-score   support
+
+           0       0.77      0.81      0.79     19781
+           1       0.86      0.80      0.83     35939
+           2       0.76      0.83      0.79     20144
+
+    accuracy                           0.81     75864
+   macro avg       0.80      0.81      0.81     75864
+weighted avg       0.81      0.81      0.81     75864
+
+Epoch 7: train_loss=0.1678 val_loss=0.1564
+              precision    recall  f1-score   support
+
+           0       0.81      0.79      0.80     19781
+           1       0.85      0.84      0.85     35939
+           2       0.79      0.83      0.81     20144
+
+    accuracy                           0.82     75864
+   macro avg       0.82      0.82      0.82     75864
+weighted avg       0.82      0.82      0.82     75864
+
+Epoch 8: train_loss=0.1594 val_loss=0.1427
+              precision    recall  f1-score   support
+
+           0       0.78      0.83      0.81     19781
+           1       0.87      0.81      0.84     35939
+           2       0.79      0.84      0.81     20144
+
+    accuracy                           0.82     75864
+   macro avg       0.82      0.83      0.82     75864
+weighted avg       0.83      0.82      0.83     75864
+
+Epoch 9: train_loss=0.1506 val_loss=0.1359
+              precision    recall  f1-score   support
+
+           0       0.81      0.82      0.81     19781
+           1       0.87      0.83      0.85     35939
+           2       0.79      0.85      0.82     20144
+
+    accuracy                           0.83     75864
+   macro avg       0.83      0.83      0.83     75864
+weighted avg       0.83      0.83      0.83     75864
+
+Epoch 10: train_loss=0.1428 val_loss=0.1280
+              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82     19781
+           1       0.87      0.84      0.85     35939
+           2       0.81      0.84      0.82     20144
+
+    accuracy                           0.84     75864
+   macro avg       0.83      0.84      0.83     75864
+weighted avg       0.84      0.84      0.84     75864
+
+Epoch 11: train_loss=0.1362 val_loss=0.1215
+              precision    recall  f1-score   support
+
+           0       0.81      0.83      0.82     19781
+           1       0.87      0.84      0.86     35939
+           2       0.82      0.84      0.83     20144
+
+    accuracy                           0.84     75864
+   macro avg       0.83      0.84      0.84     75864
+weighted avg       0.84      0.84      0.84     75864
+
+Epoch 12: train_loss=0.1312 val_loss=0.1176
+              precision    recall  f1-score   support
+
+           0       0.82      0.83      0.83     19781
+           1       0.87      0.85      0.86     35939
+           2       0.83      0.84      0.83     20144
+
+    accuracy                           0.84     75864
+   macro avg       0.84      0.84      0.84     75864
+weighted avg       0.85      0.84      0.85     75864
+
+Epoch 13: train_loss=0.1279 val_loss=0.1135
+              precision    recall  f1-score   support
+
+           0       0.81      0.85      0.83     19781
+           1       0.88      0.84      0.86     35939
+           2       0.82      0.85      0.83     20144
+
+    accuracy                           0.84     75864
+   macro avg       0.84      0.85      0.84     75864
+weighted avg       0.85      0.84      0.84     75864
+
+Epoch 14: train_loss=0.1261 val_loss=0.1124
+              precision    recall  f1-score   support
+
+           0       0.82      0.84      0.83     19781
+           1       0.88      0.85      0.86     35939
+           2       0.82      0.85      0.83     20144
+
+    accuracy                           0.84     75864
+   macro avg       0.84      0.84      0.84     75864
+weighted avg       0.85      0.84      0.84     75864
+
+Epoch 15: train_loss=0.1244 val_loss=0.1114
+[Scenario Summary] global | model=gru
+              precision    recall  f1-score   support
+
+           0       0.82      0.86      0.84    117153
+           1       0.85      0.78      0.82    145924
+           2       0.81      0.85      0.83    116483
+
+    accuracy                           0.83    379560
+   macro avg       0.83      0.83      0.83    379560
+weighted avg       0.83      0.83      0.83    379560
+
+[Holdout Evaluation][scenario=global] model=gru
+              precision    recall  f1-score   support
+
+           0       0.70      0.75      0.72     37437
+           1       0.80      0.74      0.77     71821
+           2       0.70      0.75      0.72     36603
+
+    accuracy                           0.74    145861
+   macro avg       0.73      0.75      0.74    145861
+weighted avg       0.75      0.74      0.75    145861
+
+[Scenario Summary] global | model=gru | holdout
+              precision    recall  f1-score   support
+
+           0       0.70      0.75      0.72     37437
+           1       0.80      0.74      0.77     71821
+           2       0.70      0.75      0.72     36603
+
+    accuracy                           0.74    145861
+   macro avg       0.73      0.75      0.74    145861
+weighted avg       0.75      0.74      0.75    145861
+
+=== Scenario: global | Model: transformer ===
+              precision    recall  f1-score   support
+
+           0       0.77      0.62      0.69     27620
+           1       0.68      0.83      0.75     34098
+           2       0.72      0.66      0.69     26800
+
+    accuracy                           0.71     88518
+   macro avg       0.72      0.70      0.71     88518
+weighted avg       0.72      0.71      0.71     88518
+
+Epoch 1: train_loss=0.2929 val_loss=0.2925
+              precision    recall  f1-score   support
+
+           0       0.74      0.62      0.67     27620
+           1       0.69      0.80      0.74     34098
+           2       0.71      0.69      0.70     26800
+
+    accuracy                           0.71     88518
+   macro avg       0.71      0.70      0.70     88518
+weighted avg       0.71      0.71      0.71     88518
+
+Epoch 2: train_loss=0.2675 val_loss=0.2994
+              precision    recall  f1-score   support
+
+           0       0.75      0.67      0.71     27620
+           1       0.68      0.83      0.74     34098
+           2       0.77      0.64      0.70     26800
+
+    accuracy                           0.72     88518
+   macro avg       0.73      0.71      0.72     88518
+weighted avg       0.73      0.72      0.72     88518
+
+Epoch 3: train_loss=0.2522 val_loss=0.2829
+              precision    recall  f1-score   support
+
+           0       0.75      0.70      0.72     27620
+           1       0.68      0.82      0.75     34098
+           2       0.79      0.64      0.71     26800
+
+    accuracy                           0.73     88518
+   macro avg       0.74      0.72      0.73     88518
+weighted avg       0.74      0.73      0.73     88518
+
+Epoch 4: train_loss=0.2396 val_loss=0.2782
+              precision    recall  f1-score   support
+
+           0       0.80      0.63      0.71     27620
+           1       0.68      0.84      0.75     34098
+           2       0.75      0.68      0.71     26800
+
+    accuracy                           0.73     88518
+   macro avg       0.74      0.72      0.72     88518
+weighted avg       0.74      0.73      0.73     88518
+
+Epoch 5: train_loss=0.2306 val_loss=0.2890
+              precision    recall  f1-score   support
+
+           0       0.74      0.72      0.73     27620
+           1       0.70      0.76      0.73     34098
+           2       0.72      0.66      0.69     26800
+
+    accuracy                           0.72     88518
+   macro avg       0.72      0.71      0.72     88518
+weighted avg       0.72      0.72      0.72     88518
+
+Epoch 6: train_loss=0.2239 val_loss=0.3040
+              precision    recall  f1-score   support
+
+           0       0.80      0.63      0.70     27620
+           1       0.68      0.83      0.75     34098
+           2       0.73      0.68      0.71     26800
+
+    accuracy                           0.72     88518
+   macro avg       0.74      0.71      0.72     88518
+weighted avg       0.73      0.72      0.72     88518
+
+Epoch 7: train_loss=0.2145 val_loss=0.3117
+              precision    recall  f1-score   support
+
+           0       0.78      0.68      0.72     27620
+           1       0.68      0.82      0.74     34098
+           2       0.76      0.66      0.70     26800
+
+    accuracy                           0.73     88518
+   macro avg       0.74      0.72      0.72     88518
+weighted avg       0.73      0.73      0.72     88518
+
+Epoch 8: train_loss=0.2074 val_loss=0.2876
+              precision    recall  f1-score   support
+
+           0       0.77      0.67      0.72     27620
+           1       0.68      0.81      0.74     34098
+           2       0.75      0.66      0.71     26800
+
+    accuracy                           0.72     88518
+   macro avg       0.73      0.72      0.72     88518
+weighted avg       0.73      0.72      0.72     88518
+
+Epoch 9: train_loss=0.1965 val_loss=0.2967
+              precision    recall  f1-score   support
+
+           0       0.72      0.71      0.72     27620
+           1       0.71      0.72      0.72     34098
+           2       0.71      0.70      0.70     26800
+
+    accuracy                           0.71     88518
+   macro avg       0.71      0.71      0.71     88518
+weighted avg       0.71      0.71      0.71     88518
+
+Epoch 10: train_loss=0.1891 val_loss=0.3255
+Early stopping.
+[Scenario global][Walk 1]
+              precision    recall  f1-score   support
+
+           0       0.72      0.71      0.72     27620
+           1       0.71      0.72      0.72     34098
+           2       0.71      0.70      0.70     26800
+
+    accuracy                           0.71     88518
+   macro avg       0.71      0.71      0.71     88518
+weighted avg       0.71      0.71      0.71     88518
+
+              precision    recall  f1-score   support
+
+           0       0.77      0.66      0.71     25537
+           1       0.70      0.86      0.77     36850
+           2       0.79      0.65      0.71     26131
+
+    accuracy                           0.74     88518
+   macro avg       0.75      0.72      0.73     88518
+weighted avg       0.75      0.74      0.74     88518
+
+Epoch 1: train_loss=0.2834 val_loss=0.2675
+              precision    recall  f1-score   support
+
+           0       0.76      0.71      0.73     25537
+           1       0.72      0.84      0.78     36850
+           2       0.80      0.66      0.72     26131
+
+    accuracy                           0.75     88518
+   macro avg       0.76      0.74      0.74     88518
+weighted avg       0.75      0.75      0.75     88518
+
+Epoch 2: train_loss=0.2525 val_loss=0.2511
+              precision    recall  f1-score   support
+
+           0       0.77      0.70      0.73     25537
+           1       0.73      0.83      0.77     36850
+           2       0.78      0.70      0.74     26131
+
+    accuracy                           0.75     88518
+   macro avg       0.76      0.74      0.75     88518
+weighted avg       0.76      0.75      0.75     88518
+
+Epoch 3: train_loss=0.2414 val_loss=0.2475
+              precision    recall  f1-score   support
+
+           0       0.80      0.67      0.73     25537
+           1       0.71      0.87      0.78     36850
+           2       0.80      0.68      0.74     26131
+
+    accuracy                           0.76     88518
+   macro avg       0.77      0.74      0.75     88518
+weighted avg       0.76      0.76      0.75     88518
+
+Epoch 4: train_loss=0.2355 val_loss=0.2514
+              precision    recall  f1-score   support
+
+           0       0.80      0.67      0.73     25537
+           1       0.73      0.81      0.77     36850
+           2       0.74      0.74      0.74     26131
+
+    accuracy                           0.75     88518
+   macro avg       0.76      0.74      0.75     88518
+weighted avg       0.75      0.75      0.75     88518
+
+Epoch 5: train_loss=0.2279 val_loss=0.2507
+              precision    recall  f1-score   support
+
+           0       0.77      0.71      0.74     25537
+           1       0.74      0.81      0.77     36850
+           2       0.76      0.72      0.74     26131
+
+    accuracy                           0.75     88518
+   macro avg       0.76      0.74      0.75     88518
+weighted avg       0.75      0.75      0.75     88518
+
+Epoch 6: train_loss=0.2226 val_loss=0.2569
+              precision    recall  f1-score   support
+
+           0       0.78      0.70      0.74     25537
+           1       0.73      0.82      0.77     36850
+           2       0.76      0.71      0.74     26131
+
+    accuracy                           0.75     88518
+   macro avg       0.76      0.74      0.75     88518
+weighted avg       0.76      0.75      0.75     88518
+
+Epoch 7: train_loss=0.2166 val_loss=0.2501
+              precision    recall  f1-score   support
+
+           0       0.76      0.72      0.74     25537
+           1       0.74      0.80      0.77     36850
+           2       0.76      0.72      0.74     26131
+
+    accuracy                           0.75     88518
+   macro avg       0.75      0.75      0.75     88518
+weighted avg       0.75      0.75      0.75     88518
+
+Epoch 8: train_loss=0.2097 val_loss=0.2541
+              precision    recall  f1-score   support
+
+           0       0.74      0.74      0.74     25537
+           1       0.75      0.76      0.76     36850
+           2       0.75      0.73      0.74     26131
+
+    accuracy                           0.75     88518
+   macro avg       0.74      0.74      0.74     88518
+weighted avg       0.75      0.75      0.75     88518
+
+Epoch 9: train_loss=0.2031 val_loss=0.2657
+Early stopping.
+[Scenario global][Walk 2]
+              precision    recall  f1-score   support
+
+           0       0.74      0.74      0.74     25537
+           1       0.75      0.76      0.76     36850
+           2       0.75      0.73      0.74     26131
+
+    accuracy                           0.75     88518
+   macro avg       0.74      0.74      0.74     88518
+weighted avg       0.75      0.75      0.75     88518
+
+              precision    recall  f1-score   support
+
+           0       0.76      0.67      0.72     22567
+           1       0.77      0.86      0.81     42982
+           2       0.76      0.67      0.72     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.76      0.74      0.75     88518
+weighted avg       0.77      0.77      0.76     88518
+
+Epoch 1: train_loss=0.2756 val_loss=0.2474
+              precision    recall  f1-score   support
+
+           0       0.74      0.72      0.73     22567
+           1       0.80      0.83      0.81     42982
+           2       0.75      0.71      0.73     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.76      0.75      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 2: train_loss=0.2458 val_loss=0.2336
+              precision    recall  f1-score   support
+
+           0       0.74      0.72      0.73     22567
+           1       0.80      0.83      0.82     42982
+           2       0.76      0.71      0.74     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.77      0.76      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 3: train_loss=0.2388 val_loss=0.2293
+              precision    recall  f1-score   support
+
+           0       0.76      0.71      0.73     22567
+           1       0.77      0.88      0.82     42982
+           2       0.81      0.64      0.71     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.78      0.74      0.76     88518
+weighted avg       0.78      0.77      0.77     88518
+
+Epoch 4: train_loss=0.2353 val_loss=0.2290
+              precision    recall  f1-score   support
+
+           0       0.72      0.75      0.73     22567
+           1       0.82      0.79      0.80     42982
+           2       0.73      0.74      0.74     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.75      0.76      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 5: train_loss=0.2283 val_loss=0.2307
+              precision    recall  f1-score   support
+
+           0       0.76      0.70      0.73     22567
+           1       0.80      0.85      0.82     42982
+           2       0.76      0.73      0.74     22969
+
+    accuracy                           0.78     88518
+   macro avg       0.77      0.76      0.76     88518
+weighted avg       0.78      0.78      0.78     88518
+
+Epoch 6: train_loss=0.2245 val_loss=0.2248
+              precision    recall  f1-score   support
+
+           0       0.75      0.72      0.74     22567
+           1       0.80      0.83      0.82     42982
+           2       0.75      0.73      0.74     22969
+
+    accuracy                           0.78     88518
+   macro avg       0.77      0.76      0.76     88518
+weighted avg       0.78      0.78      0.78     88518
+
+Epoch 7: train_loss=0.2184 val_loss=0.2264
+              precision    recall  f1-score   support
+
+           0       0.77      0.70      0.73     22567
+           1       0.80      0.83      0.82     42982
+           2       0.74      0.74      0.74     22969
+
+    accuracy                           0.78     88518
+   macro avg       0.77      0.76      0.76     88518
+weighted avg       0.77      0.78      0.77     88518
+
+Epoch 8: train_loss=0.2122 val_loss=0.2315
+              precision    recall  f1-score   support
+
+           0       0.69      0.76      0.73     22567
+           1       0.81      0.81      0.81     42982
+           2       0.77      0.70      0.73     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.76      0.76      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 9: train_loss=0.2063 val_loss=0.2357
+              precision    recall  f1-score   support
+
+           0       0.73      0.74      0.73     22567
+           1       0.80      0.84      0.82     42982
+           2       0.78      0.69      0.73     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.77      0.76      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 10: train_loss=0.1996 val_loss=0.2373
+              precision    recall  f1-score   support
+
+           0       0.73      0.73      0.73     22567
+           1       0.81      0.82      0.81     42982
+           2       0.74      0.73      0.74     22969
+
+    accuracy                           0.77     88518
+   macro avg       0.76      0.76      0.76     88518
+weighted avg       0.77      0.77      0.77     88518
+
+Epoch 11: train_loss=0.1934 val_loss=0.2398
+              precision    recall  f1-score   support
+
+           0       0.76      0.71      0.73     22567
+           1       0.79      0.84      0.82     42982
+           2       0.76      0.72      0.74     22969
+
+    accuracy                           0.78     88518
+   macro avg       0.77      0.76      0.76     88518
+weighted avg       0.78      0.78      0.78     88518
+
+Epoch 12: train_loss=0.1889 val_loss=0.2425
+Early stopping.
+[Scenario global][Walk 3]
+              precision    recall  f1-score   support
+
+           0       0.76      0.71      0.73     22567
+           1       0.79      0.84      0.82     42982
+           2       0.76      0.72      0.74     22969
+
+    accuracy                           0.78     88518
+   macro avg       0.77      0.76      0.76     88518
+weighted avg       0.78      0.78      0.78     88518
+
+              precision    recall  f1-score   support
+
+           0       0.69      0.76      0.72     19781
+           1       0.84      0.74      0.79     35939
+           2       0.69      0.76      0.72     20144
+
+    accuracy                           0.75     75864
+   macro avg       0.74      0.75      0.74     75864
+weighted avg       0.76      0.75      0.75     75864
+
+Epoch 1: train_loss=0.2708 val_loss=0.2396
+              precision    recall  f1-score   support
+
+           0       0.74      0.73      0.74     19781
+           1       0.82      0.80      0.81     35939
+           2       0.72      0.77      0.74     20144
+
+    accuracy                           0.77     75864
+   macro avg       0.76      0.77      0.76     75864
+weighted avg       0.77      0.77      0.77     75864
+
+Epoch 2: train_loss=0.2446 val_loss=0.2220
+              precision    recall  f1-score   support
+
+           0       0.77      0.71      0.74     19781
+           1       0.80      0.85      0.82     35939
+           2       0.76      0.74      0.75     20144
+
+    accuracy                           0.78     75864
+   macro avg       0.78      0.76      0.77     75864
+weighted avg       0.78      0.78      0.78     75864
+
+Epoch 3: train_loss=0.2375 val_loss=0.2178
+              precision    recall  f1-score   support
+
+           0       0.73      0.75      0.74     19781
+           1       0.82      0.81      0.81     35939
+           2       0.75      0.74      0.75     20144
+
+    accuracy                           0.78     75864
+   macro avg       0.77      0.77      0.77     75864
+weighted avg       0.78      0.78      0.78     75864
+
+Epoch 4: train_loss=0.2331 val_loss=0.2153
+              precision    recall  f1-score   support
+
+           0       0.73      0.76      0.74     19781
+           1       0.83      0.78      0.80     35939
+           2       0.72      0.77      0.75     20144
+
+    accuracy                           0.77     75864
+   macro avg       0.76      0.77      0.76     75864
+weighted avg       0.78      0.77      0.77     75864
+
+Epoch 5: train_loss=0.2272 val_loss=0.2153
+              precision    recall  f1-score   support
+
+           0       0.71      0.78      0.75     19781
+           1       0.83      0.80      0.81     35939
+           2       0.77      0.74      0.76     20144
+
+    accuracy                           0.78     75864
+   macro avg       0.77      0.78      0.77     75864
+weighted avg       0.78      0.78      0.78     75864
+
+Epoch 6: train_loss=0.2229 val_loss=0.2053
+              precision    recall  f1-score   support
+
+           0       0.74      0.75      0.75     19781
+           1       0.83      0.80      0.82     35939
+           2       0.75      0.79      0.77     20144
+
+    accuracy                           0.79     75864
+   macro avg       0.77      0.78      0.78     75864
+weighted avg       0.79      0.79      0.79     75864
+
+Epoch 7: train_loss=0.2183 val_loss=0.1975
+              precision    recall  f1-score   support
+
+           0       0.74      0.78      0.76     19781
+           1       0.82      0.83      0.83     35939
+           2       0.79      0.72      0.76     20144
+
+    accuracy                           0.79     75864
+   macro avg       0.78      0.78      0.78     75864
+weighted avg       0.79      0.79      0.79     75864
+
+Epoch 8: train_loss=0.2116 val_loss=0.1930
+              precision    recall  f1-score   support
+
+           0       0.80      0.72      0.76     19781
+           1       0.82      0.84      0.83     35939
+           2       0.75      0.79      0.77     20144
+
+    accuracy                           0.80     75864
+   macro avg       0.79      0.78      0.79     75864
+weighted avg       0.80      0.80      0.80     75864
+
+Epoch 9: train_loss=0.2060 val_loss=0.1868
+              precision    recall  f1-score   support
+
+           0       0.75      0.78      0.76     19781
+           1       0.84      0.79      0.82     35939
+           2       0.75      0.80      0.77     20144
+
+    accuracy                           0.79     75864
+   macro avg       0.78      0.79      0.78     75864
+weighted avg       0.79      0.79      0.79     75864
+
+Epoch 10: train_loss=0.2004 val_loss=0.1819
+              precision    recall  f1-score   support
+
+           0       0.77      0.77      0.77     19781
+           1       0.83      0.83      0.83     35939
+           2       0.78      0.78      0.78     20144
+
+    accuracy                           0.80     75864
+   macro avg       0.79      0.79      0.79     75864
+weighted avg       0.80      0.80      0.80     75864
+
+Epoch 11: train_loss=0.1957 val_loss=0.1720
+              precision    recall  f1-score   support
+
+           0       0.76      0.78      0.77     19781
+           1       0.84      0.81      0.83     35939
+           2       0.77      0.79      0.78     20144
+
+    accuracy                           0.80     75864
+   macro avg       0.79      0.80      0.79     75864
+weighted avg       0.80      0.80      0.80     75864
+
+Epoch 12: train_loss=0.1900 val_loss=0.1676
+              precision    recall  f1-score   support
+
+           0       0.76      0.78      0.77     19781
+           1       0.84      0.81      0.83     35939
+           2       0.77      0.80      0.78     20144
+
+    accuracy                           0.80     75864
+   macro avg       0.79      0.80      0.79     75864
+weighted avg       0.80      0.80      0.80     75864
+
+Epoch 13: train_loss=0.1857 val_loss=0.1637
+              precision    recall  f1-score   support
+
+           0       0.77      0.78      0.77     19781
+           1       0.84      0.82      0.83     35939
+           2       0.77      0.79      0.78     20144
+
+    accuracy                           0.80     75864
+   macro avg       0.79      0.80      0.80     75864
+weighted avg       0.80      0.80      0.80     75864
+
+Epoch 14: train_loss=0.1838 val_loss=0.1608
+              precision    recall  f1-score   support
+
+           0       0.77      0.78      0.77     19781
+           1       0.84      0.82      0.83     35939
+           2       0.77      0.79      0.78     20144
+
+    accuracy                           0.80     75864
+   macro avg       0.79      0.80      0.80     75864
+weighted avg       0.80      0.80      0.80     75864
+
+Epoch 15: train_loss=0.1828 val_loss=0.1597
+[Scenario Summary] global | model=transformer
+              precision    recall  f1-score   support
+
+           0       0.77      0.80      0.79    117153
+           1       0.81      0.76      0.78    145924
+           2       0.77      0.80      0.79    116483
+
+    accuracy                           0.79    379560
+   macro avg       0.78      0.79      0.79    379560
+weighted avg       0.79      0.79      0.79    379560
+
+[Holdout Evaluation][scenario=global] model=transformer
+              precision    recall  f1-score   support
+
+           0       0.71      0.76      0.73     37437
+           1       0.81      0.76      0.79     71821
+           2       0.71      0.75      0.73     36603
+
+    accuracy                           0.76    145861
+   macro avg       0.75      0.76      0.75    145861
+weighted avg       0.76      0.76      0.76    145861
+
+[Scenario Summary] global | model=transformer | holdout
+              precision    recall  f1-score   support
+
+           0       0.71      0.76      0.73     37437
+           1       0.81      0.76      0.79     71821
+           2       0.71      0.75      0.73     36603
+
+    accuracy                           0.76    145861
+   macro avg       0.75      0.76      0.75    145861
+weighted avg       0.76      0.76      0.76    145861
+
+Saved ensemble metadata to models\dl_model_transformer.meta.json

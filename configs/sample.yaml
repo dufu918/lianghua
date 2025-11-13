@@ -1,0 +1,28 @@
+simulation:
+  start: "2024-01-02"
+  end: "2024-01-19"
+  cash: 1000000
+  commission_bps: 1.5
+  slippage_bps: 1.0
+  benchmark: "000300.SH"
+
+data:
+  feed: "csv"
+  params:
+    path: "data/sample_data.csv"
+    symbol: "000001.SZ"
+
+strategy:
+  name: "moving_average"
+  params:
+    short_window: 3
+    long_window: 7
+    symbol: "000001.SZ"
+
+report:
+  output: "reports/sample_run.json"
+  chart: "reports/sample_run.png"
+
+visualization:
+  live: true
+  symbol: "000001.SZ"

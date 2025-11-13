@@ -1,0 +1,31 @@
+simulation:
+  start: "2025-11-10 23:38:00"
+  end: "2025-11-12 23:38:00"
+  cash: 10000
+  commission_bps: 0.5
+  slippage_bps: 0.2
+
+data:
+  feed: "binance"
+  params:
+    symbol: "DOGEUSDT"
+    mode: "websocket"          # 改成 "rest" 可回测历史数据
+    aggregate_seconds: 1
+    proxy: "http://127.0.0.1:7897"
+    ws_proxy: "http://127.0.0.1:7897"
+
+strategy:
+  name: "moving_average"
+  params:
+    short_window: 5
+    long_window: 20
+    symbol: "DOGEUSDT"
+
+report:
+  output: "reports/binance_doge.json"
+  chart: "reports/binance_doge.png"
+
+visualization:
+  live: true
+  symbol: "DOGEUSDT"
+  window_minutes: 20

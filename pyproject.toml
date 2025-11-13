@@ -1,0 +1,40 @@
+[project]
+name = "lianghua"
+version = "0.1.0"
+description = "Modular A-share simulation/backtesting framework built for Windows + Python."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Codex Assistant" }
+]
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=1.26",
+  "pydantic>=2.8",
+  "pyyaml>=6.0",
+  "matplotlib>=3.9",
+  "requests>=2.32",
+  "websocket-client>=1.8",
+  "tushare>=1.2.89",
+  "scikit-learn>=1.5",
+  "torch>=2.4",
+  "ta>=0.11",
+  "pyarrow>=17.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3",
+  "ruff>=0.5"
+]
+
+[project.scripts]
+lianghua-sim = "lianghua.main:run_cli"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
